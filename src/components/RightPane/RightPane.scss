@@ -1,0 +1,47 @@
+@import "../../Globals/Colors/colors";
+
+.rightpane {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  left: auto;
+  right: 40px;
+  z-index: 10;
+  color: $blue-tint;
+
+  .email-container {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+
+    .email-content {
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      -webkit-writing-mode: vertical-rl;
+      writing-mode: vertical-rl;
+      margin: 20px auto;
+      padding: 10px;
+      color: $blue-tint;
+      transition: 0.3s linear;
+      font-weight: bold;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .email-content:hover {
+      transition: 0.3s linear;
+      color: $third-color;
+      transform: translateY(-3px);
+    }
+  }
+}
+
+.email-container::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 70px;
+  margin: 0px auto;
+  background-color: $blue-tint;
+}

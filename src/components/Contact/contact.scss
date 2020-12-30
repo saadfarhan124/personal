@@ -1,0 +1,28 @@
+#contact {
+  #contactHeading:hover:after {
+    width: 68%;
+    position: relative;
+    left: 15%;
+  }
+
+  #contactHeading::after {
+    position: relative;
+    left: 15%;
+  }
+
+  #contactHeading {
+    text-align: center;
+  }
+
+  .contextText {
+    padding-top: 0px;
+  }
+
+  .heading-container {
+    padding-bottom: 0px;
+  }
+
+  .btn-div {
+    margin-top: 15px;
+  }
+}

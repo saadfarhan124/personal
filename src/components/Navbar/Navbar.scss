@@ -1,0 +1,66 @@
+@import "../../Globals/Colors/colors";
+
+nav {
+  background-color: $third !important;
+  font-family: "Source Code Pro";
+}
+code {
+  color: $third;
+}
+
+nav ul a:hover {
+  background-color: $first !important;
+  color: $third !important;
+  transition: 1s ease !important;
+}
+
+nav ul a:focus {
+  background-color: $first !important;
+  color: $third !important;
+  transition: 1s ease !important;
+}
+
+.btn-resume {
+  box-shadow: none;
+  color: white;
+  background-color: $fifth;
+}
+
+.btn-resume:hover {
+  box-shadow: none;
+  color: white !important;
+  background-color: $third !important;
+}
+
+.btn-resume:focus {
+  background-color: $third !important;
+  color: white !important;
+  transition: 1s ease !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $fifth;
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+button {
+  color: $fourth;
+  font-family: "Roboto", sans-serif;
+}
+
+ul,
+li {
+  color: $fourth;
+}
+
+/* 
+df0100 red
+a0a3b6 grey
+68809a blue
+*/

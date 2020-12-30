@@ -1,0 +1,58 @@
+@import "../../Globals/Colors/colors";
+
+.leftPane {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: auto;
+  left: 40px;
+  z-index: 10;
+  color: $primary-color;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin-bottom: 0px;
+
+  li {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.socials::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 70px;
+  margin: 0px auto;
+  background-color: $blue-tint;
+}
+
+.social {
+  fill: $blue-tint;
+
+  svg {
+    transition: 0.5s linear;
+  }
+}
+
+.social:hover {
+  fill: $third-color;
+
+  svg {
+    transition: 0.5s linear;
+    transform: translateY(-5px);
+  }
+}

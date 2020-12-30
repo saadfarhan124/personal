@@ -1,0 +1,83 @@
+@import "../../Globals/Colors/colors";
+
+#experienceheading:hover:after {
+  left: 50px;
+  width: 78% !important;
+  position: relative;
+}
+
+#experienceheading::after {
+  position: relative;
+  left: 50px;
+}
+
+#experienceheading {
+  text-align: center;
+}
+
+[data-reach-tab-list] {
+  display: inline-grid !important;
+  background-color: inherit !important;
+}
+
+[data-reach-tab-panels] {
+  display: inline-flex !important;
+  margin: auto 30px;
+}
+
+[data-reach-tab][data-selected] {
+  border-left: 2px solid;
+  border-bottom: none;
+  border-left-color: $third-color;
+  background-color: rgba(104, 128, 154, 0.5);
+  font-weight: bold;
+}
+[data-reach-tab] {
+  transition: 0.25s ease;
+  text-align: left;
+  margin: 2px 20px;
+  padding: 2px 14px;
+  font-size: 15px;
+  color: $fourth;
+  font-family: "Roboto", sans-serif;
+}
+
+[data-reach-tab]:hover {
+  background-color: rgba(104, 128, 154, 0.5);
+  font-weight: bold;
+}
+
+.red-text {
+  color: $third-color;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+button {
+  background-color: red;
+}
+
+.responsibilities {
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+
+  li::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    content: "\f101";
+    color: $third-color;
+    font-family: FontAwesome;
+    margin-right: 20px;
+  }
+}
+.heading-container {
+  padding-bottom: 0px;
+}
+#experience {
+  padding-top: 0px !important;
+}

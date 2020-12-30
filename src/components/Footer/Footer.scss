@@ -1,0 +1,18 @@
+@import "../../Globals/Colors/colors";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  background-color: $third;
+  height: auto;
+  min-height: 70px;
+
+  .footerlabel {
+    padding: 10px;
+    color: $primary-color;
+  }
+}
