@@ -15,7 +15,7 @@ export const Contact = () => (
             <div className="center-align">
                 
                 <p>Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
-                <div class="btn-div">
+                <div className="btn-div">
                     <a
                     className="waves-effect waves-light btn btn-resume btn-large"
                     href="mailto:saadfarhan124@gmail.com"

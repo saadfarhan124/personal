@@ -82,7 +82,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li>
-                <a href="sass.html">
+                <a onClick={() => this.scroll("contact")}>
                   <code>04.</code> Contact
                 </a>
               </li>

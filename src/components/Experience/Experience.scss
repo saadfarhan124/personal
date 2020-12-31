@@ -28,7 +28,7 @@
 [data-reach-tab][data-selected] {
   border-left: 2px solid;
   border-bottom: none;
-  border-left-color: $third-color;
+  border-left-color: $third;
   background-color: rgba(104, 128, 154, 0.5);
   font-weight: bold;
 }
@@ -47,9 +47,7 @@
   font-weight: bold;
 }
 
-.red-text {
-  color: $third-color;
-}
+
 
 .font-bold {
   font-weight: bold;
@@ -70,7 +68,7 @@ button {
     font-style: normal;
     font-variant: normal;
     content: "\f101";
-    color: $third-color;
+    color: $third;
     font-family: FontAwesome;
     margin-right: 20px;
   }
@@ -84,4 +82,40 @@ button {
   .section-number{
     font-size: 1.5rem;
   }
+
+  .exp-col{
+    margin: 30px 0px;
+  }
+
+  .responsibilities li{
+    margin: 5px 0px;
+  }
+
+  .experience-tabs{
+    background-color: inherit !important;
+
+    .tab a, .tab a.active, .tab a.focus.active{
+      color: #68809a ;
+      background-color: inherit !important;
+    }
+
+    .tab a.active{
+      color:white;
+    }
+    .tab a:hover {
+      color:white;
+    }
+
+    .tab a{
+      transition: 0.3s ease-in;
+    }
+
+    .indicator{
+      background-color: #00A5B2;
+    }
+
+    
+  }
+
+  
 }

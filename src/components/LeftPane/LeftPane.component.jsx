@@ -10,7 +10,7 @@ export const LeftPane = () => (
         <a href="https://github.com/saadfarhan124" rel="noopener noreferrer" target="_blank" className="social">
           <svg
             role="img"
-            enable-background="new 0 0 24 24"
+            enableBackground="new 0 0 24 24"
             height="30"
             viewBox="0 0 24 24"
             width="30"
@@ -26,7 +26,7 @@ export const LeftPane = () => (
         <a href="https://www.linkedin.com/in/saadfarhan124/" rel="noopener noreferrer" target="_blank" className="social">
           <svg
             role="img"
-            enable-background="new 0 0 24 24"
+            enableBackground="new 0 0 24 24"
             height="30"
             viewBox="0 0 24 24"
             width="30"
@@ -42,7 +42,7 @@ export const LeftPane = () => (
         <a href="https://www.instagram.com/saadfarhan124/" rel="noopener noreferrer" target="_blank" className="social">
           <svg
             role="img"
-            enable-background="new 0 0 24 24"
+            enableBackground="new 0 0 24 24"
             height="30"
             viewBox="0 0 24 24"
             width="30"
@@ -58,7 +58,7 @@ export const LeftPane = () => (
         <a href="https://www.facebook.com/SaadFarhan12" rel="noopener noreferrer" target="_blank" className="social">
           <svg
             role="img"
-            enable-background="new 0 0 24 24"
+            enableBackground="new 0 0 24 24"
             height="30"
             viewBox="0 0 24 24"
             width="30"

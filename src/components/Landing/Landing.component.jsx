@@ -5,7 +5,7 @@ export const Landing = () => (
   <section className="container">
     <div className="row">
       <div className="col s12">
-        <h5 className="left-align red-text greeting">Hi, my name is</h5>
+        <h5 className="left-align blue-tint greeting">Hi, my name is</h5>
       </div>
     </div>
     <div className="row">
