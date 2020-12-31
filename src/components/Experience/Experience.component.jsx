@@ -12,7 +12,7 @@ class Experience extends Component {
         <div className="container heading-container">
           <div className="row container">
             <h4 className="heading text-center" id="experienceheading">
-              <code>02.</code>Where I've worked
+              <code className="section-number">02.</code>Where I've worked
             </h4>
           </div>
         </div>

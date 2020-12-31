@@ -9,7 +9,7 @@ code {
 }
 
 nav ul a:hover {
-  background-color: $first !important;
+  background-color: $primary-color !important;
   color: $third !important;
   transition: 1s ease !important;
 }
@@ -44,14 +44,14 @@ h3,
 h4,
 h5,
 h6 {
-  color: $fifth;
+  color: $third;
   font-family: "Roboto", sans-serif;
 }
 
 p,
 button {
   color: $fourth;
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvitica", sans-serif;
 }
 
 ul,

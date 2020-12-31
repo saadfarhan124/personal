@@ -23,6 +23,14 @@
 
 #about {
   padding-bottom: 0px !important;
+  padding-top: 0px !important;
+
+  .btn-get-in-touch{
+    margin-bottom:90px; 
+  }
+  .section-number{
+    font-size: 1.5rem;
+  }
 }
 
 .container {
@@ -56,5 +64,9 @@
   }
   .card {
     background-color: inherit;
+  }
+  .about-card{
+    box-shadow: none!important;
+    -webkit-box-shadow:none!important;
   }
 }

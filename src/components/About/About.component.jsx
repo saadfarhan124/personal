@@ -4,9 +4,19 @@ import "./About.scss";
 export const About = () => (
   <section className="container" id="about">
     <div className="row">
+      <div className="col s12">
+          <a
+          className="waves-effect waves-light btn btn-resume btn-large btn-get-in-touch"
+          href="mailto:saadfarhan124@gmail.com"
+          >
+            Get in touch
+          </a>      
+      </div>
+ </div>
+    <div className="row">
       <div className="col s3">
         <h4 className="heading">
-          <code>01.</code>About Me
+          <code className="section-number">01.</code>About Me
         </h4>
       </div>
     </div>
@@ -42,7 +52,7 @@ export const About = () => (
         {/* </div> */}
       </div>
       <div className="col s6">
-        <div className="card" style={{}}>
+        <div className="card about-card" style={{}}>
           <div className="card-image ">
             <img className="responsive-img" src="/assets/pic.png"></img>
           </div>
