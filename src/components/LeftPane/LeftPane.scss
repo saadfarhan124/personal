@@ -10,6 +10,12 @@
   color: $primary-color;
 }
 
+@media screen and (max-width: 1024px) {
+  .leftPane{
+    display: none;
+  }
+}
+
 .socials {
   display: flex;
   flex-direction: column;

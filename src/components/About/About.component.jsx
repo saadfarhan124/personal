@@ -4,7 +4,7 @@ import "./About.scss";
 export const About = () => (
   <section className="container" id="about">
     <div className="row">
-      <div className="col s12">
+      <div className="col s12 btn-get-in-touch-col">
           <a
           className="waves-effect waves-light btn btn-resume btn-large btn-get-in-touch"
           href="mailto:saadfarhan124@gmail.com"

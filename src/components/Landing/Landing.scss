@@ -22,3 +22,8 @@
 .name {
   font-weight: bold;
 }
+@media screen and (max-width: 425px) {
+  h1,h4,H5,p{
+    text-align: center !important;
+  }
+}

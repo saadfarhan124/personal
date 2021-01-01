@@ -1,5 +1,10 @@
 @import "../../Globals/Colors/colors";
 
+@media screen and (max-width: 1024px) {
+  .rightpane{
+    display: none;
+  }
+}
 .rightpane {
   width: 40px;
   position: fixed;
