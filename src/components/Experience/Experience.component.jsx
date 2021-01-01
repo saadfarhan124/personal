@@ -11,7 +11,7 @@ class Experience extends Component {
       <section className="container " id="experience">
         <div className="container heading-container">
           <div className="row container">
-            <h4 className="heading text-center" id="experienceheading">
+            <h4 className="heading text-center hvr-underline-from-center" id="experienceheading">
               <code className="section-number">02.</code>Where I've worked
             </h4>
           </div>

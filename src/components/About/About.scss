@@ -12,10 +12,7 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.heading:hover:after {
-  width: 90%;
-  position: relative;
-}
+
 
 .heading {
   cursor: pointer;

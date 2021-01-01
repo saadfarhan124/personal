@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./Landing.scss";
 
-export const Landing = () => (
-  <section className="container">
+
+export const Landing = () => {
+  useEffect(() => {
+    // alert('saad');
+  });
+  return(
+    <section className="container">
     <div className="row">
       <div className="col s12">
         <h5 className="left-align blue-tint greeting">Hi, my name is</h5>
@@ -39,4 +44,8 @@ export const Landing = () => (
    
   </section>
    
-);
+  )
+}
+  
+ 
+

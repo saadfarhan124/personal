@@ -15,13 +15,14 @@ export const About = () => (
  </div>
     <div className="row">
       <div className="col s3">
-        <h4 className="heading">
-          <code className="section-number">01.</code>About Me
+        <h4 className="heading hvr-underline-from-center" style={{display:'inline-block'}}>
+          <code className="section-number ">01.</code>About Me
         </h4>
       </div>
     </div>
+  
     <div className="row">
-      <div className="col m6 s6">
+      <div className="col s8">
         <p>
           Organized and creative individual with a constant thirst for knowledge and an innate desire for self-improvement that
           led to the creation of strong foundation of logic, math and programming concepts. Proficient at problem solving having 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar.component";
+import {Navbar} from "./components/Navbar/Navbar.component";
 import { Landing } from "./components/Landing/Landing.component";
 import { LeftPane } from "./components/LeftPane/LeftPane.component";
 import { RightPane } from "./components/RightPane/RightPane.component";
