@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./App.css";
 import {Navbar} from "./components/Navbar/Navbar.component";
 import { Landing } from "./components/Landing/Landing.component";
@@ -11,6 +11,10 @@ import { Contact } from "./components/Contact/Contact.component";
 import Experience from "./components/Experience/Experience.component";
 
 function App() {
+  useEffect(()=>{
+    // var elems = document.querySelectorAll('.sidenav');
+    // var instances = M.Sidenav.init(elems, []);
+  })
   return (
     <div className="App">
       <Navbar />

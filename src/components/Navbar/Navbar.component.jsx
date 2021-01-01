@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import "./Navbar.scss";
 
-
+import ScrollReveal from 'scrollreveal';
 
 export const Navbar = () => {
   const [slide, setSlide] = useState(0);
@@ -27,8 +27,27 @@ export const Navbar = () => {
     }); 
   }
 
+  const reveal = (item) =>{
+    ScrollReveal().reveal(item, {
+      distance: '150%',
+      origin: 'top',
+      opacity: null
+    });
+    // item.style = {display:"block"};
+    
+  }
+
   useEffect(() =>{
     window.addEventListener("scroll", handleScroll);
+   
+    let navigationItems = document.getElementsByClassName("nav-item")
+    for(let key in navigationItems){
+      let timeDelay = 40;
+      // setTimeout(() => {
+      //   reveal(navigationItems[key]);
+      // }, timeDelay*(key+1))
+     
+    }
   });
 
   
@@ -50,27 +69,27 @@ export const Navbar = () => {
           <i className="material-icons">menu</i>
         </a>
         <ul className="right hide-on-med-and-down">
-          <li>
+          <li  className="nav-item load-hidden">
             <a onClick={() => scroll("about")}>
               <code>01.</code> About
             </a>
           </li>
-          <li>
+          <li className="nav-item load-hidden">
             <a onClick={() => scroll("experience")}>
               <code>02.</code> Experience
             </a>
           </li>
-          <li>
+          <li className="nav-item load-hidden">
             <a href="sass.html">
               <code>03.</code> Work
             </a>
           </li>
-          <li>
+          <li className="nav-item load-hidden">
             <a onClick={() => scroll("contact")}>
               <code>04.</code> Contact
             </a>
           </li>
-          <li>
+          <li className="nav-item load-hidden">
             <a className="waves-effect waves-light btn btn-resume">
               Resume
             </a>

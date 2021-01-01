@@ -3,7 +3,7 @@ import "./LeftPane.scss";
 
 
 export const LeftPane = () => (
-  <div className="leftPane">
+  <div className="leftPane hide-on-small-only">
     <ul className="socials">
       <li>
         {/* github */}
