@@ -43,20 +43,21 @@ export const Navbar = () => {
   useEffect(() =>{
     window.addEventListener("scroll", handleScroll);
    
-    let navigationItems = document.getElementsByClassName("nav-item")
-    for(let key in navigationItems){
-      let timeDelay = 50;
-      setTimeout(() => {
-        reveal(navigationItems[key]);
-      }, timeDelay*(key+1))
-     
-    }
+    
     if(!loadedOnce){
-      var elems = document.querySelectorAll('.sidenav');
-      let instance = (M.Sidenav.init(elems, []));
-      console.log(instance);
-      setSideNav(instance);
-      console.log(sidenav);
+      let navigationItems = document.getElementsByClassName("nav-item")
+      for(let key in navigationItems){
+        let timeDelay = 50;
+        setTimeout(() => {
+          reveal(navigationItems[key]);
+        }, timeDelay*(key+1))
+      
+      }
+      // var elems = document.querySelectorAll('.sidenav');
+      // let instance = (M.Sidenav.init(elems, []));
+      // console.log(instance);
+      // setSideNav(instance);
+      // console.log(sidenav);
       setLoadedOnce(true)
     }
     
