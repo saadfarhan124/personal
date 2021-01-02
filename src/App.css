@@ -37,3 +37,6 @@ body {
 html.sr .load-hidden {
   visibility: hidden;
 }
+.sidenav-overlay{
+  display:none;
+}
