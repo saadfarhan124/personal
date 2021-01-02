@@ -45,10 +45,10 @@ export const Navbar = () => {
    
     let navigationItems = document.getElementsByClassName("nav-item")
     for(let key in navigationItems){
-      let timeDelay = 40;
-      // setTimeout(() => {
-      //   reveal(navigationItems[key]);
-      // }, timeDelay*(key+1))
+      let timeDelay = 50;
+      setTimeout(() => {
+        reveal(navigationItems[key]);
+      }, timeDelay*(key+1))
      
     }
     if(!loadedOnce){
