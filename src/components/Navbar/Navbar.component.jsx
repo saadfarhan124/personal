@@ -2,12 +2,10 @@ import React, {useState, useEffect} from "react";
 import "./Navbar.scss";
 
 import ScrollReveal from 'scrollreveal';
-import M from 'materialize-css'
 
 export const Navbar = () => {
   const [slide, setSlide] = useState(0);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [sidenav, setSideNav] = useState(null);
   const [loadedOnce, setLoadedOnce] = useState(false);
  
   const handleScroll = () => {
@@ -30,12 +28,26 @@ export const Navbar = () => {
     }); 
   }
 
-  const reveal = (item) =>{
-    ScrollReveal().reveal(item, {
-      distance: '150%',
-      origin: 'top',
-      opacity: null
-    });
+  const reveal = (item, type="move") =>{
+    if(type == "move"){
+      ScrollReveal().reveal(item, {
+        distance: '150%',
+        origin: 'top',
+        opacity: null,
+        reset: false
+      });
+    }else{
+      ScrollReveal().reveal(item, {
+        distance: '50px',
+        duration: 1000,
+        easing: 'ease',
+        mobile: true,
+        reset: true,
+        viewFactor: 0.4,
+        reset: false
+      });
+    }
+   
     // item.style = {display:"block"};
     
   }
@@ -45,21 +57,29 @@ export const Navbar = () => {
    
     
     if(!loadedOnce){
-      let navigationItems = document.getElementsByClassName("nav-item")
+      console.log('loaded');
+      let navigationItems = document.getElementsByClassName("nav-item");
+      var timeDelay = 35;
       for(let key in navigationItems){
-        let timeDelay = 50;
+        
         setTimeout(() => {
-          reveal(navigationItems[key]);
-        }, timeDelay*(key+1))
-      
+          reveal(navigationItems[key]); 
+        },timeDelay*(key+1))
       }
-     
-      // instance = M.Sidenav.getInstance(elems);
 
-      // console.log(instance);
-      // setSideNav({...sidenav,instance});
-      // console.log(sidenav);
-      // instance.open();
+      timeDelay = 2000;
+      setTimeout(() => {
+        reveal(document.getElementById("landing"), "fade-in"); 
+      },timeDelay);
+      setTimeout(() => {
+        reveal(document.getElementById("about"), "fade-in"); 
+      },timeDelay);
+      setTimeout(() => {
+        reveal(document.getElementById("experience"), "fade-in"); 
+      },timeDelay);
+      setTimeout(() => {
+        reveal(document.getElementById("contact"), "fade-in"); 
+      },timeDelay);
       setLoadedOnce(true)
     }
     

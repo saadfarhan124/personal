@@ -7,12 +7,14 @@ class Experience extends Component {
   state = {};
   render() {
     return (
-      <section className="container " id="experience">
+      <section className="container" id="experience">
         <div className="container heading-container">
-          <div className="row container">
-            <h4 className="heading text-center hvr-underline-from-center" id="experienceheading">
-              <code className="section-number">02.</code>Where I've worked
-            </h4>
+          <div className="row">
+            <div className="col m12 s12">
+              <h4 className="heading text-center hvr-underline-from-center" id="experienceheading">
+                  <code className="section-number">02.</code>Where I've worked
+              </h4>
+            </div>
           </div>
         </div>
         <div className="row">

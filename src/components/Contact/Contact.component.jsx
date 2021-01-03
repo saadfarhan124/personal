@@ -2,9 +2,9 @@ import React from "react";
 import "./contact.scss";
 
 export const Contact = () => (
-    <section className="container " id="contact">
+    <section className="container" id="contact">
     <div className="container heading-container">
-      <div className="row container">
+      <div className="row">
         <h4 className="heading text-center hvr-underline-from-center" id="contactHeading">
           <code className="section-number">03.</code>Get In Touch
         </h4>

@@ -16,7 +16,7 @@ function App() {
     // var instances = M.Sidenav.init(elems, []);
   })
   return (
-    <div className="App">
+    <div className="App" id="fullpage">
       <Navbar />
       <RightPane />
       <LeftPane />
