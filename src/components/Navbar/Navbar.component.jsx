@@ -72,6 +72,12 @@ export const Navbar = () => {
         reveal(document.getElementById("landing"), "fade-in"); 
       },timeDelay);
       setTimeout(() => {
+        reveal(document.getElementsByClassName("leftPane"), "fade-in"); 
+      },timeDelay);
+      setTimeout(() => {
+        reveal(document.getElementsByClassName("rightpane"), "fade-in"); 
+      },timeDelay);
+      setTimeout(() => {
         reveal(document.getElementById("about"), "fade-in"); 
       },timeDelay);
       setTimeout(() => {
