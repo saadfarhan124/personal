@@ -30,6 +30,10 @@
     .btn-get-in-touch-col{
       text-align: center;
     }
+    .text-and-image-container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
 
@@ -50,13 +54,41 @@
   }
 
   .technologies {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    overflow: hidden;
-    padding: 0px;
-    margin: 20px 0px 0px;
-    list-style: none;
+    // display: grid;
+    // grid-template-columns: repeat(2, minmax(140px, 200px));
+    // overflow: hidden;
+    // padding: 0px;
+    // margin: 20px 0px 0px;
+    .first-list, .second-list{
+      list-style: none;
+      display: inline-block;
+    }
+    .second-list{
+      padding-left: 30px;
+    }
+    
+    @media screen and (max-width: 423px) {
+      .first-list, .second-list{
+        display: block;
+        text-align: center;
+      }
 
+      .second-list {
+        padding-left: 0px;
+        ul{
+          margin-top: 0px;
+        }
+        
+      }
+
+      .first-list{
+        ul{
+          margin-bottom: 0px;
+
+        }
+      }
+    }
+    
     li::before {
       display: inline-block;
       font-style: normal;

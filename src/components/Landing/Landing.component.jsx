@@ -7,8 +7,8 @@ export const Landing = () => {
     // alert('saad');
   });
   return(
-    <section className="container">
-      <div className="container">
+    <section className="container pb-0">
+      <div className="container pb-0">
     <div className="row">
       <div className="col s12">
         <h5 className="left-align blue-tint greeting">Hi, my name is</h5>

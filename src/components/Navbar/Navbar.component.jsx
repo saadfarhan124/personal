@@ -7,7 +7,7 @@ import M from 'materialize-css'
 export const Navbar = () => {
   const [slide, setSlide] = useState(0);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [sidenav, setSideNav] = useState();
+  const [sidenav, setSideNav] = useState(null);
   const [loadedOnce, setLoadedOnce] = useState(false);
  
   const handleScroll = () => {
@@ -53,11 +53,13 @@ export const Navbar = () => {
         }, timeDelay*(key+1))
       
       }
-      // var elems = document.querySelectorAll('.sidenav');
-      // let instance = (M.Sidenav.init(elems, []));
+     
+      // instance = M.Sidenav.getInstance(elems);
+
       // console.log(instance);
-      // setSideNav(instance);
+      // setSideNav({...sidenav,instance});
       // console.log(sidenav);
+      // instance.open();
       setLoadedOnce(true)
     }
     
@@ -65,77 +67,80 @@ export const Navbar = () => {
 
   
   return (
-    <div className="navbar-fixed">
-    <nav
-      style={{
-        transition: "0.5s ease",
-        transform: `translate(0, ${slide})`
-      }}
-    >
-      <div className="nav-wrapper">
-        <div className="left">
-          <a href="#!" className="brand-logo">
-            Logo
-          </a>
-        </div>
-        <a href="#" data-target="mobile-demo" className="sidenav-trigger" >
-          <i className="material-icons">menu</i>
-        </a>
-        <ul className="right hide-on-med-and-down">
-          <li  className="nav-item load-hidden">
-            <a onClick={() => scroll("about")}>
-              <code>01.</code> About
+    <div >
+      <div className="navbar-fixed">
+        <nav
+          style={{
+            transition: "0.5s ease",
+            transform: `translate(0, ${slide})`
+          }}
+        >
+          <div className="nav-wrapper">
+            <div className="left">
+              <a href="#!" className="brand-logo">
+                Logo
+              </a>
+            </div>
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger" >
+              <i className="material-icons">menu</i>
             </a>
-          </li>
-          <li className="nav-item load-hidden">
-            <a onClick={() => scroll("experience")}>
-              <code>02.</code> Experience
-            </a>
-          </li>
-          <li className="nav-item load-hidden">
-            <a onClick={() => scroll("about")}>
-              <code>03.</code> Work
-            </a>
-          </li>
-          <li className="nav-item load-hidden">
-            <a onClick={() => scroll("contact")}>
-              <code>04.</code> Contact
-            </a>
-          </li>
-          <li className="nav-item load-hidden">
-            <a className="waves-effect waves-light btn btn-resume">
-              Resume
-            </a>
-          </li>
-        </ul>
+            <ul className="right hide-on-med-and-down">
+              <li  className="nav-item load-hidden">
+                <a onClick={() => scroll("about")}>
+                  <code>01.</code> About
+                </a>
+              </li>
+              <li className="nav-item load-hidden">
+                <a onClick={() => scroll("experience")}>
+                  <code>02.</code> Experience
+                </a>
+              </li>
+              <li className="nav-item load-hidden">
+                <a onClick={() => scroll("about")}>
+                  <code>03.</code> Work
+                </a>
+              </li>
+              <li className="nav-item load-hidden">
+                <a onClick={() => scroll("contact")}>
+                  <code>04.</code> Contact
+                </a>
+              </li>
+              <li className="nav-item load-hidden">
+                <a className="waves-effect waves-light btn btn-resume">
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
+      
 
-    <ul className="sidenav" id="mobile-demo">
-      <li>
-        <a onClick={() => scroll("about")}>
-          <code>1.</code> About
-        </a>
-      </li>
-      <li>
-        <a onClick={() => scroll("experience")}>
-          <code>2.</code> Experience
-        </a>
-      </li>
-      <li>
-        <a onClick={() => alert('saad')}>
-          <code>3.</code> Work
-        </a>
-      </li>
-      <li onClick={() => scroll("contact")}>
-        <a >
-          <code>4.</code> Contact
-        </a>
-      </li>
-      <li>
-        <a className="waves-effect waves-light btn btn-resume">Resume</a>
-      </li>
-    </ul>
+      <ul className="sidenav" id="mobile-demo">
+        <li>
+          <a onClick={() => scroll("about")}>
+            <code>1.</code> About
+          </a>
+        </li>
+        <li>
+          <a onClick={() => scroll("experience")}>
+            <code>2.</code> Experience
+          </a>
+        </li>
+        <li>
+          <a onClick={() => alert('saad')}>
+            <code>3.</code> Work
+          </a>
+        </li>
+        <li onClick={() => scroll("contact")}>
+          <a >
+            <code>4.</code> Contact
+          </a>
+        </li>
+        <li>
+          <a className="waves-effect waves-light btn btn-resume">Resume</a>
+        </li>
+      </ul>
   </div>
   )
 }

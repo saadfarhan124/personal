@@ -16,14 +16,14 @@ export const About = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col s12">
-          <h4 className="heading hvr-underline-from-center" style={{display:'inline-block'}}>
+        <div className="col m4 s12">
+          <h4 className="heading hvr-underline-from-center" >
             <code className="section-number ">01.</code>About Me
           </h4>
         </div>
       </div>
-      <div className="row">
-        <div className="col s8">
+      <div className="row text-and-image-container">
+        <div className="col m8 s12">
           <p>
             Organized and creative individual with a constant thirst for knowledge and an innate desire for self-improvement that
             led to the creation of strong foundation of logic, math and programming concepts. Proficient at problem solving having 
@@ -38,20 +38,27 @@ export const About = () => (
           </p>
           {/* <div className="row"> */}
           <p>Here are a few technologies I've been working with recently:</p>
-          <ul className="technologies">
-            <li>MERN</li>
-            <li>React Native</li>
-            <li>Code Igniter</li>
-            
-            <li>Electron JS</li>
-            <li>ASP.NET</li>
-            <li>Android (Kotlin and Java)</li>
-            <li>WordPress</li>
-            <li>Python</li>
-          </ul>
-          {/* </div> */}
+          <div className="row technologies">
+            <div className="col-sm-6 first-list">
+              <ul>
+                <li>MERN</li>
+                <li>React Native</li>
+                <li>Code Igniter</li>
+                <li>ASP.NET</li>
+
+              </ul>
+            </div>
+            <div className="col-sm-6 second-list">
+              <ul>
+                <li>Android (Kotlin and Java)</li>
+                <li>Python</li>
+                <li>WordPress</li>
+                <li>Electron JS</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="col s4">
+        <div className="col m4 s12">
           <div className="card about-card" style={{}}>
             <div className="card-image ">
               <img className="responsive-img" src="/assets/pic.png"></img>
