@@ -16,16 +16,7 @@ export const About = () => (
       <div className="row text-and-image-container">
         <div className="col m8 s12">
           <p>
-            Organized and creative individual with a constant thirst for knowledge and an innate desire for self-improvement that
-            led to the creation of strong foundation of logic, math and programming concepts. Proficient at problem solving having 
-            adept time management and communication skills. Consistently seeking to be better computer scientist and aiming to become a 
-            detailed oriented data scientist. 
-          </p>
-          <p>
-            Organized and creative individual with a constant thirst for knowledge and an innate desire for self-improvement that
-            led to the creation of strong foundation of logic, math and programming concepts. Proficient at problem solving having 
-            adept time management and communication skills. Consistently seeking to be better computer scientist and aiming to become a 
-            detailed oriented data scientist. 
+          Driven by knowledge, and a general enthusiasm for problem solving, I am an independent software engineer who has brought multiple projects to completion and been an important asset in every project. I have honed my skills to excel in MERN, Python, Android Development and CodeIgniter, focusing on core concepts and not limiting myself to a single stack. I am an ambitious individual who is eager to learn new things and keep my arsenal updated with innovative technologies. 
           </p>
           {/* <div className="row"> */}
           <p>Here are a few technologies I've been working with recently:</p>

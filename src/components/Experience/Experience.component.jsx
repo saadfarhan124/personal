@@ -12,7 +12,7 @@ class Experience extends Component {
           <div className="row">
             <div className="col m12 s12">
               <h4 className="heading text-center hvr-underline-from-center" id="experienceheading">
-                  <code className="section-number">02.</code>Where I've worked
+                  <code className="section-number">03.</code>Where I've worked
               </h4>
             </div>
           </div>
@@ -20,8 +20,8 @@ class Experience extends Component {
         <div className="row">
           <div className="col s12">
             <ul className="tabs experience-tabs">
-              <li className="tab col s3"><a href="#xortox">Xortox</a></li>
-              <li className="tab col s3"><a className="active" href="#szabist">Szabist</a></li>
+              <li className="tab col s3"><a className="active" href="#xortox">Xortox</a></li>
+              <li className="tab col s3"><a href="#szabist">Szabist</a></li>
               <li className="tab col s3 "><a href="#digitz">DIGITZ</a></li>
               <li className="tab col s3"><a href="#ninjaStrokes">Ninja Strokes</a></li>
             </ul>
@@ -31,19 +31,34 @@ class Experience extends Component {
               Software Engineer 
               <span className="font-bold"> @ Xortox</span>
             </h6>
-            <p>June 2012 - Present</p>
+            <p>July 2020 - Present</p>
             <ul className="responsibilities">
               <li>
-                  WordPress Plugin Customization and Configuration
+                Optimizing development and deployment processes
               </li>
               <li>
-                Developed and maintained code for clients using Codeigniter, HTML, CSS, JQuery, and Javascript.
+                Converting business needs into use cases.
               </li>
-              <li>Optimized deployement process and implemented repository management using GIT.</li>
               <li>
-                Developed mobile application for a client on React Native and deployed it on PlayStore.
+                Optimized deployement process and implemented repository management using GIT.
               </li>
-              <li></li>
+              <li>
+                Developing and maintaining multiple platforms using technologies such as CodeIgniter,WordPress
+              </li>
+              <li>
+                Developing APIs and configuring third party APIs to communicate between different
+                systems.
+              </li>
+              <li>
+                Developing mobile applications using Hybrid technology (React Native) and Native Android
+                development.  
+              </li>
+              <li>
+                Configuring and customizing third party plugins.
+              </li>
+              <li>
+                Research and development
+              </li>
             </ul>
           </div>
           <div id="szabist" className="col s12 center-align exp-col">
@@ -55,19 +70,18 @@ class Experience extends Component {
 
             <ul className="responsibilities">
               <li>
-                Development and maintenance of web portal using WordPress to
-                showcase team's progress and achievements.
+                Developed Alumni Portal using ASP.Net, JQuery, Javascript, HTML, CSS, AJAX
               </li>
               <li>
-                Data analysis and visualization of the data gathered from
-                CNC Machines.
+                Developed dashboard using React JS for the data gathered by CNC machines
               </li>
-              <li>Development of predictive models.</li>
               <li>
-                Development of a business intelligence solutions for the
-                gear industry using React JS.
+                Applied different machine learning models using Python, Pandas and sci kit learn.
               </li>
-              <li>Development of Alumni Web Portal using ASP. Net.</li>
+              <li>
+                General purpose programming
+              </li>
+              <li>Managed and supervised different Final Year Projects.</li>
             </ul>
           </div>
           <div id="digitz" className="col s12 center-align exp-col">
@@ -89,11 +103,11 @@ class Experience extends Component {
                 </a>
               </li>
               <li>
-                Provided IT support to the team during Karachi Eat 2017.
+                Research work on different technologies
               </li>
               <li>
-                Research work on different chatbot frameworks and content
-                management systems.
+                Multiple chatbots development for different clients seeking to improve their social
+                networking platform
               </li>
             </ul>
           </div>

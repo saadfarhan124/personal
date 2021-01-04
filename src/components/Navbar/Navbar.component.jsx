@@ -104,7 +104,7 @@ export const Navbar = () => {
           <div className="nav-wrapper">
             <div className="left">
               <a href="#!" className="brand-logo">
-                Logo
+                <img src="/assets/logo-blue.png" alt=""/>
               </a>
             </div>
             <a href="#" data-target="mobile-demo" className="sidenav-trigger" >

@@ -19,7 +19,14 @@ nav ul a:focus {
   color: $third !important;
   transition: 1s ease !important;
 }
-
+.nav-wrapper .brand-logo img {
+  height: 43px;
+  vertical-align: text-bottom;
+  margin-left : 15px;
+  @media screen and (max-width: 423px) {
+    margin-left: 0px;
+  }
+}
 .btn-resume {
   box-shadow: none;
   color: white;

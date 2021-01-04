@@ -11,9 +11,9 @@ export const LeftPane = () => (
           <svg
             role="img"
             enableBackground="new 0 0 24 24"
-            height="30"
+            height="20"
             viewBox="0 0 24 24"
-            width="30"
+            width="20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>Github</title>
@@ -27,9 +27,9 @@ export const LeftPane = () => (
           <svg
             role="img"
             enableBackground="new 0 0 24 24"
-            height="30"
+            height="20"
             viewBox="0 0 24 24"
-            width="30"
+            width="20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>LinkedIn</title>
@@ -43,9 +43,9 @@ export const LeftPane = () => (
           <svg
             role="img"
             enableBackground="new 0 0 24 24"
-            height="30"
+            height="20"
             viewBox="0 0 24 24"
-            width="30"
+            width="20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>Instagram</title>
@@ -59,9 +59,9 @@ export const LeftPane = () => (
           <svg
             role="img"
             enableBackground="new 0 0 24 24"
-            height="30"
+            height="20"
             viewBox="0 0 24 24"
-            width="30"
+            width="20"
             xmlns="http://www.w3.org/2000/svg"
           >
             <title>Facebook</title>

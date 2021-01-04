@@ -7,6 +7,7 @@ import { RightPane } from "./components/RightPane/RightPane.component";
 import { Footer } from "./components/Footer/Footer.component";
 import { About } from "./components/About/About.component";
 import { Contact } from "./components/Contact/Contact.component";
+import Projects from "./components/Projects/Projects.component";
 
 import Experience from "./components/Experience/Experience.component";
 
@@ -22,6 +23,7 @@ function App() {
       <LeftPane />
       <Landing />
       <About />
+      <Projects />
       <Experience />
       <Contact />
       <Footer />
