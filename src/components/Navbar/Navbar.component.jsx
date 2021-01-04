@@ -47,9 +47,12 @@ export const Navbar = () => {
         reset: false
       });
     }
-   
-    // item.style = {display:"block"};
-    
+  }
+
+  const revealWithTimeout = (id) => {
+    setTimeout(() => {
+      reveal(document.getElementById(id), "fade-in"); 
+    },2000);
   }
 
   useEffect(() =>{
@@ -67,26 +70,16 @@ export const Navbar = () => {
         },timeDelay*(key+1))
       }
 
-      timeDelay = 2000;
-      setTimeout(() => {
-        reveal(document.getElementById("landing"), "fade-in"); 
-      },timeDelay);
-      setTimeout(() => {
-        reveal(document.getElementsByClassName("leftPane"), "fade-in"); 
-      },timeDelay);
-      setTimeout(() => {
-        reveal(document.getElementsByClassName("rightpane"), "fade-in"); 
-      },timeDelay);
-      setTimeout(() => {
-        reveal(document.getElementById("about"), "fade-in"); 
-      },timeDelay);
-      setTimeout(() => {
-        reveal(document.getElementById("experience"), "fade-in"); 
-      },timeDelay);
-      setTimeout(() => {
-        reveal(document.getElementById("contact"), "fade-in"); 
-      },timeDelay);
-      setLoadedOnce(true)
+      // timeDelay = 2000;
+      revealWithTimeout("landing");
+      revealWithTimeout("leftpane");
+      revealWithTimeout("rightpane");
+      revealWithTimeout("about");
+      revealWithTimeout("projects");
+      revealWithTimeout("experience");
+      revealWithTimeout("contact");
+
+      setLoadedOnce(true);
     }
     
   });

@@ -46,8 +46,7 @@ const Projects = () => {
                                 <div className="card-wrapper">
                                     <div className="card right-overlap">
                                         <div className="card-content">
-                                            <p>I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.</p>
+                                            <p>An E-Learning Platform connecting Preceptors from all over the US to physcians in training</p>
                                         </div>
                                     </div>
                                 </div>
@@ -74,10 +73,9 @@ const Projects = () => {
 
                                 <div className="card left-overlap">
 
-                                        <div className="card-content">
-                                                <p>I am a very simple card. I am good at containing small bits of information.
-                                                I am convenient because I require little markup to use effectively.</p>
-                                        </div>
+                                    <div className="card-content">
+                                        <p>Ride Hailing Startup based in karachi. My key responsibilities included developing and maintaining multiple android and web apps</p>
+                                    </div>
                                 </div>
                                 <div className="technologies">
                                     <div className="row">
@@ -112,8 +110,7 @@ const Projects = () => {
 
                                 <div className="card right-overlap">
                                     <div className="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
+                                        <p>An E-Commerce based startup providing computer hardware to people all over Pakistan.</p>
                                     </div>
                                 </div>
                                 <div className="technologies">
@@ -142,8 +139,7 @@ const Projects = () => {
 
                                 <div className="card left-overlap">
                                     <div className="card-content">
-                                        <p>I am a very simple card. I am good at containing small bits of information.
-                                        I am convenient because I require little markup to use effectively.</p>
+                                        <p>My final year and first project that I led to completion on my own. A simple command based desktop application that generates movie recommendations based on your previous choices.</p>
                                     </div>
                                 </div>
                                 <div className="technologies">
