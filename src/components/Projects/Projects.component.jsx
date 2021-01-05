@@ -179,10 +179,9 @@ const Projects = () => {
                     <div className="card">
                         <div className="card-content white-text">
                             <div className="row">
-                                <div className="col icons s1"><i className="far fa-folder"></i></div>
-                                <div className="col icons s10"></div>
-                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Reddit-Data-Scrapper" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
+                                <div className="col icons s12"><i className="far fa-folder"></i></div>
                             </div>
+                           
                             <div className="row mt-5">
                                 <div className="col s12">
                                     <span className="card-title">Reddit Data Scrapper</span>
@@ -196,6 +195,11 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="links mt-5">
+                                <ul>
+                                    <a href="https://github.com/saadfarhan124/Reddit-Data-Scrapper" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                                </ul>
+                            </div>
                             
                         </div>
                     </div>
@@ -204,10 +208,7 @@ const Projects = () => {
                     <div className="card">
                         <div className="card-content white-text">
                             <div className="row">
-                                <div className="col icons s1"><i className="far fa-folder"></i></div>
-                                <div className="col icons s9"></div>
-                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/nodeCalculator" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
-                                <div className="col icons s1"><a href="https://calculator-nodereactjs.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></div>
+                                <div className="col icons s12"><i className="far fa-folder"></i></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -222,6 +223,12 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="links mt-5">
+                                <ul>
+                                    <li><a href="https://github.com/saadfarhan124/nodeCalculator" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                                    <li><a href="https://calculator-nodereactjs.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></li>
+                                </ul>
+                            </div>
                             
                         </div>
                     </div>
@@ -230,10 +237,7 @@ const Projects = () => {
                     <div className="card">
                         <div className="card-content white-text">
                             <div className="row">
-                                <div className="col icons s1"><i className="far fa-folder"></i></div>
-                                <div className="col icons s9"></div>
-                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Node-Minimal-Social-App" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
-                                <div className="col icons s1"><a href="https://anonymous-social.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></div>
+                                <div className="col icons s12"><i className="far fa-folder"></i></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -249,6 +253,12 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="links mt-5">
+                                <ul>
+                                    <li><a href="https://github.com/saadfarhan124/Node-Minimal-Social-App" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                                    <li><a href="https://anonymous-social.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></li>
+                                </ul>
+                            </div>
                             
                         </div>
                     </div>
@@ -260,9 +270,7 @@ const Projects = () => {
                     <div className="card">
                         <div className="card-content white-text">
                             <div className="row">
-                                <div className="col icons s1"><i className="far fa-folder"></i></div>
-                                <div className="col icons s10"></div>
-                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Instagram-Downloader" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a></div>
+                                <div className="col icons s12"><i className="far fa-folder"></i></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -270,8 +278,7 @@ const Projects = () => {
                                     <p>A Python based utility to download Instagram Posts</p>
                                     <div className="links mt-5">
                                         <ul>
-                                            <li>Python</li>
-                                            <li>Selenium</li>
+                                            <li><a href="https://github.com/saadfarhan124/Instagram-Downloader" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -284,9 +291,7 @@ const Projects = () => {
                     <div className="card">
                         <div className="card-content white-text">
                             <div className="row">
-                                <div className="col icons s1"><i className="far fa-folder"></i></div>
-                                <div className="col icons s10"></div>
-                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Alumni-Portal" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
+                                <div className="col icons s12"><i className="far fa-folder"></i></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -301,7 +306,11 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            
+                            <div className="links mt-5">
+                                <ul>
+                                    <li><a href="https://github.com/saadfarhan124/Alumni-Portal" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -309,9 +318,7 @@ const Projects = () => {
                     <div className="card">
                         <div className="card-content white-text">
                             <div className="row">
-                                <div className="col icons s1"><i className="far fa-folder"></i></div>
-                                <div className="col icons s10"></div>
-                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/WordPress-Page-Automations" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
+                                <div className="col icons s12"><i className="far fa-folder"></i></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -325,7 +332,11 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            
+                            <div className="links mt-5">
+                                <ul>
+                                    <li><a href="https://github.com/saadfarhan124/WordPress-Page-Automations" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
