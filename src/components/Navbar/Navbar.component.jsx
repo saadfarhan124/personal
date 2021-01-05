@@ -157,7 +157,9 @@ export const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="waves-effect waves-light btn btn-resume">Resume</a>
+          <a href="/assets/SAADFARHAN-CV.pdf" download className="waves-effect waves-light btn btn-resume">
+            Resume
+          </a>
         </li>
       </ul>
   </div>
