@@ -75,7 +75,7 @@ export const Navbar = () => {
       revealWithTimeout("leftpane");
       revealWithTimeout("rightpane");
       revealWithTimeout("about");
-      revealWithTimeout("projects");
+      // revealWithTimeout("projects");
       revealWithTimeout("experience");
       revealWithTimeout("contact");
 
