@@ -55,6 +55,9 @@ h6 {
   color: $third;
   font-family: "Roboto", sans-serif;
   font-weight: 700 !important;
+  @media screen and (max-width: 423px) {
+   font-size: 38px;
+  }
 }
 
 p,

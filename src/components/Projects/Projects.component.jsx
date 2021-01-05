@@ -54,8 +54,8 @@ const Projects = () => {
                             <div className="technologies">
                                 <div className="row">
                                     <ul>
-                                        {USDoctorsSpanItems.map((item) => (
-                                            <li >{item}</li>
+                                        {USDoctorsSpanItems.map((item, key) => (
+                                            <li className={key}>{item}</li>
                                         ))}
                                     </ul>
                                 </div>
@@ -88,8 +88,8 @@ const Projects = () => {
                             </div>
                             <div className="links mt-5">
                                 <ul>
-                                    <li><a href="http://www.sathchaloo.com/" target="_blank"><i className="fa fa-external-link-alt"></i></a></li>
-                                    <li><a href="https://play.google.com/store/apps/details?id=sathchaloo.com.prototype" target="_blank"><i className="fab fa-google-play"></i></a></li>
+                                    <li><a href="http://www.sathchaloo.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></li>
+                                    <li><a href="https://play.google.com/store/apps/details?id=sathchaloo.com.prototype" target="_blank" rel="noopener noreferrer"><i className="fab fa-google-play"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const Projects = () => {
                             </div>
                             <div className="links mt-5">
                                 <ul>
-                                    <li><a href="xtremehardware.pk" target="_blank"><i className="fa fa-external-link-alt"></i></a></li>
+                                    <li><a href="https://xtremehardware.pk/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ const Projects = () => {
                             </div>
                             <div className="links mt-5">
                                 <ul>
-                                    <li><a href="https://github.com/saadfarhan124/Stanley" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="https://github.com/saadfarhan124/Stanley" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -177,11 +177,11 @@ const Projects = () => {
             <div className="row arhive">
                 <div className="col s12 m4 l4">
                     <div className="card">
-                        <div class="card-content white-text">
+                        <div className="card-content white-text">
                             <div className="row">
-                                <div className="col s1"><i class="far fa-folder"></i></div>
-                                <div className="col s10"></div>
-                                <div className="col s1"><i class="fab fa-github"></i></div>
+                                <div className="col icons s1"><i className="far fa-folder"></i></div>
+                                <div className="col icons s10"></div>
+                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Reddit-Data-Scrapper" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -202,12 +202,12 @@ const Projects = () => {
                 </div>
                 <div className="col s12 m4 l4">
                     <div className="card">
-                        <div class="card-content white-text">
+                        <div className="card-content white-text">
                             <div className="row">
-                                <div className="col s1"><i class="far fa-folder"></i></div>
-                                <div className="col s9"></div>
-                                <div className="col s1"><i class="fab fa-github"></i></div>
-                                <div className="col s1"><i className="fa fa-external-link-alt"></i></div>
+                                <div className="col icons s1"><i className="far fa-folder"></i></div>
+                                <div className="col icons s9"></div>
+                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/nodeCalculator" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
+                                <div className="col icons s1"><a href="https://calculator-nodereactjs.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -228,12 +228,12 @@ const Projects = () => {
                 </div>
                 <div className="col s12 m4 l4">
                     <div className="card">
-                        <div class="card-content white-text">
+                        <div className="card-content white-text">
                             <div className="row">
-                                <div className="col s1"><i class="far fa-folder"></i></div>
-                                <div className="col s9"></div>
-                                <div className="col s1"><i class="fab fa-github"></i></div>
-                                <div className="col s1"><i className="fa fa-external-link-alt"></i></div>
+                                <div className="col icons s1"><i className="far fa-folder"></i></div>
+                                <div className="col icons s9"></div>
+                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Node-Minimal-Social-App" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
+                                <div className="col icons s1"><a href="https://anonymous-social.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-external-link-alt"></i></a></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -258,11 +258,11 @@ const Projects = () => {
             <div className="row arhive">
                 <div className="col s12 m4 l4">
                     <div className="card">
-                        <div class="card-content white-text">
+                        <div className="card-content white-text">
                             <div className="row">
-                                <div className="col s1"><i class="far fa-folder"></i></div>
-                                <div className="col s10"></div>
-                                <div className="col s1"><i class="fab fa-github"></i></div>
+                                <div className="col icons s1"><i className="far fa-folder"></i></div>
+                                <div className="col icons s10"></div>
+                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Instagram-Downloader" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -282,11 +282,11 @@ const Projects = () => {
                 </div>
                 <div className="col s12 m4 l4">
                     <div className="card">
-                        <div class="card-content white-text">
+                        <div className="card-content white-text">
                             <div className="row">
-                                <div className="col s1"><i class="far fa-folder"></i></div>
-                                <div className="col s10"></div>
-                                <div className="col s1"><i class="fab fa-github"></i></div>
+                                <div className="col icons s1"><i className="far fa-folder"></i></div>
+                                <div className="col icons s10"></div>
+                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/Alumni-Portal" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">
@@ -307,11 +307,11 @@ const Projects = () => {
                 </div>
                 <div className="col s12 m4 l4">
                     <div className="card">
-                        <div class="card-content white-text">
+                        <div className="card-content white-text">
                             <div className="row">
-                                <div className="col s1"><i class="far fa-folder"></i></div>
-                                <div className="col s10"></div>
-                                <div className="col s1"><i class="fab fa-github"></i></div>
+                                <div className="col icons s1"><i className="far fa-folder"></i></div>
+                                <div className="col icons s10"></div>
+                                <div className="col icons s1"><a href="https://github.com/saadfarhan124/WordPress-Page-Automations" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></div>
                             </div>
                             <div className="row mt-5">
                                 <div className="col s12">

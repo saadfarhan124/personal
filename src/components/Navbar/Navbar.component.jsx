@@ -29,7 +29,7 @@ export const Navbar = () => {
   }
 
   const reveal = (item, type="move") =>{
-    if(type == "move"){
+    if(type === "move"){
       ScrollReveal().reveal(item, {
         distance: '150%',
         origin: 'top',
@@ -49,10 +49,10 @@ export const Navbar = () => {
     }
   }
 
-  const revealWithTimeout = (id) => {
+  const revealWithTimeout = (id, timeDelay = 2000) => {
     setTimeout(() => {
       reveal(document.getElementById(id), "fade-in"); 
-    },2000);
+    },timeDelay);
   }
 
   useEffect(() =>{
@@ -60,7 +60,6 @@ export const Navbar = () => {
    
     
     if(!loadedOnce){
-      console.log('loaded');
       let navigationItems = document.getElementsByClassName("nav-item");
       var timeDelay = 35;
       for(let key in navigationItems){
@@ -75,7 +74,7 @@ export const Navbar = () => {
       revealWithTimeout("leftpane");
       revealWithTimeout("rightpane");
       revealWithTimeout("about");
-      // revealWithTimeout("projects");
+      // reveal(document.getElementById("projects"), "fade-in"); 
       revealWithTimeout("experience");
       revealWithTimeout("contact");
 
@@ -105,27 +104,28 @@ export const Navbar = () => {
             </a>
             <ul className="right hide-on-med-and-down">
               <li  className="nav-item load-hidden">
-                <a onClick={() => scroll("about")}>
+                <a href="#" onClick={() => scroll("about")}>
                   <code>01.</code> About
                 </a>
               </li>
+              
               <li className="nav-item load-hidden">
-                <a onClick={() => scroll("experience")}>
-                  <code>02.</code> Experience
-                </a>
-              </li>
-              <li className="nav-item load-hidden">
-                <a onClick={() => scroll("about")}>
+                <a href="#" onClick={() => scroll("projects")}>
                   <code>03.</code> Work
                 </a>
               </li>
               <li className="nav-item load-hidden">
-                <a onClick={() => scroll("contact")}>
+                <a href="#" onClick={() => scroll("experience")}>
+                  <code>02.</code> Experience
+                </a>
+              </li>
+              <li className="nav-item load-hidden">
+                <a href="#" onClick={() => scroll("contact")}>
                   <code>04.</code> Contact
                 </a>
               </li>
               <li className="nav-item load-hidden">
-                <a className="waves-effect waves-light btn btn-resume">
+                <a href="/assets/SAADFARHAN-CV.pdf" download className="waves-effect waves-light btn btn-resume">
                   Resume
                 </a>
               </li>
