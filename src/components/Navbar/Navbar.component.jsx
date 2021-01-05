@@ -104,23 +104,23 @@ export const Navbar = () => {
             </a>
             <ul className="right hide-on-med-and-down">
               <li  className="nav-item load-hidden">
-                <a href="#" onClick={() => scroll("about")}>
+                <a onClick={() => scroll("about")}>
                   <code>01.</code> About
                 </a>
               </li>
               
               <li className="nav-item load-hidden">
-                <a href="#" onClick={() => scroll("projects")}>
+                <a onClick={() => scroll("projects")}>
                   <code>03.</code> Work
                 </a>
               </li>
               <li className="nav-item load-hidden">
-                <a href="#" onClick={() => scroll("experience")}>
+                <a onClick={() => scroll("experience")}>
                   <code>02.</code> Experience
                 </a>
               </li>
               <li className="nav-item load-hidden">
-                <a href="#" onClick={() => scroll("contact")}>
+                <a onClick={() => scroll("contact")}>
                   <code>04.</code> Contact
                 </a>
               </li>
