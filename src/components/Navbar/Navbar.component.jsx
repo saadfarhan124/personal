@@ -125,7 +125,7 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item load-hidden">
-                <a href="/assets/resume.pdf" download className="waves-effect waves-light btn btn-resume">
+                <a href="https://drive.google.com/uc?export=download&id=1aGw4-dZ2ArZh41KC3QaIAds-P7bul48P" download className="waves-effect waves-light btn btn-resume">
                   Resume
                 </a>
               </li>
@@ -157,7 +157,7 @@ export const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="/assets/resume.pdf" download className="waves-effect waves-light btn btn-resume">
+          <a href="https://drive.google.com/uc?export=download&id=1aGw4-dZ2ArZh41KC3QaIAds-P7bul48P" download className="waves-effect waves-light btn btn-resume">
             Resume
           </a>
         </li>
