@@ -41,7 +41,7 @@ export const Landing = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col s12 btn-get-in-touch-col">
+          <div className="col s12 btn-get-in-touch-col center-align">
               <a
               className="waves-effect waves-light btn btn-resume btn-large btn-get-in-touch"
               href="mailto:saadfarhan124@gmail.com"
