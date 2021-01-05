@@ -160,7 +160,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col s12 m8 l8">
-                    <img className="responsive-img project-image" src="/assets/stanley.png"></img>
+                    <img className="responsive-img project-image inverted" src="/assets/stanley.png"></img>
                 </div>
             </div>
 
