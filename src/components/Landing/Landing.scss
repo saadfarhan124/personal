@@ -41,4 +41,11 @@
   @media screen and (max-width: 425px) {
     height: 100%;
   }
+
+  .name{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
 }

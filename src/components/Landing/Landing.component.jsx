@@ -11,12 +11,12 @@ export const Landing = () => {
       <div className="container">
         <div className="row">
           <div className="col s12">
-            <h5 className=" left-align blue-tint greeting">Hi, my name is</h5>
+            <h5 className=" left-align blue-tint">Hi, my name is</h5>
           </div>
         </div>
         <div className="row">
           <div className="col s12">
-            <h1 className=" left-align name">Saad Farhan.</h1>
+            <h1 className=" left-align">Saad Farhan.</h1>
           </div>
         </div>
         <div className="row">
