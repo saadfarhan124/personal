@@ -278,10 +278,17 @@ const Projects = () => {
                                     <p>A Python based utility to download Instagram Posts</p>
                                     <div className="links mt-5">
                                         <ul>
-                                            <li><a href="https://github.com/saadfarhan124/Instagram-Downloader" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a></li>
+                                            <li>Python</li>
+                                            <li>Selenium</li>
                                         </ul>
                                     </div>
+                                    
                                 </div>
+                            </div>
+                            <div className="links mt-5">
+                                <ul>
+                                    <li><a href="https://github.com/saadfarhan124/Instagram-Downloader" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a></li>
+                                </ul>
                             </div>
                             
                         </div>
