@@ -142,15 +142,16 @@ export const Navbar = () => {
           </a>
         </li>
         <li>
-          <a onClick={() => scroll("experience")}>
-            <code>2.</code> Experience
+          <a onClick={() => scroll("projects")}>
+            <code>2.</code> Work
           </a>
         </li>
         <li>
-          <a onClick={() => alert('saad')}>
-            <code>3.</code> Work
+          <a onClick={() => scroll("experience")}>
+            <code>3.</code> Experience
           </a>
         </li>
+      
         <li onClick={() => scroll("contact")}>
           <a >
             <code>4.</code> Contact
