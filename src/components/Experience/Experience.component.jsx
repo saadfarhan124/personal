@@ -34,30 +34,27 @@ class Experience extends Component {
             <p>July 2020 - Present</p>
             <ul className="responsibilities">
               <li>
-                Optimizing development and deployment processes
+                Requirement gathering from clients. Implementing, deploying, performing QA and then reviewing the said changes with clients. 
               </li>
               <li>
-                Converting business needs into use cases.
+                Optimized deployment process and implemented repository management using GIT.
               </li>
               <li>
-                Optimized deployement process and implemented repository management using GIT.
+                Developed and maintained multiple platforms using technologies such as CodeIgniter, WordPress, React Native, React JS etc.
               </li>
               <li>
-                Developing and maintaining multiple platforms using technologies such as CodeIgniter,WordPress
-              </li>
-              <li>
-                Developing APIs and configuring third party APIs to communicate between different
+                Developed APIs and configured third party APIs to communicate between different
                 systems.
               </li>
               <li>
-                Developing mobile applications using Hybrid technology (React Native) and Native Android
-                development.  
+              Developed mobile applications using Hybrid technology (React Native) and Native Android
+                development (Kotlin and Java).  
               </li>
               <li>
-                Configuring and customizing third party plugins.
+                Configured and customized different third party plugins.
               </li>
               <li>
-                Research and development
+                Research and development.
               </li>
             </ul>
           </div>
@@ -70,23 +67,23 @@ class Experience extends Component {
 
             <ul className="responsibilities">
               <li>
-                Developed Alumni Portal using ASP.Net, JQuery, Javascript, HTML, CSS, AJAX
+                Developed Alumni Portal using ASP.Net, JQuery, Javascript, HTML, CSS, AJAX.
               </li>
               <li>
-                Developed dashboard using React JS for the data gathered by CNC machines
+                Built an application to visualize the data being gathered by different machines using MERN stack.
               </li>
               <li>
-                Applied different machine learning models using Python, Pandas and sci kit learn.
+                Analyzed, visualized and applied different machine learning models on the said data to predict tool wear.
               </li>
               <li>
-                General purpose programming
+                General purpose programming to meet the team's requirements such as development of the team's progress website, landing pages for different industries to view their data. 
               </li>
               <li>Managed and supervised different Final Year Projects.</li>
             </ul>
           </div>
           <div id="digitz" className="col s12 center-align exp-col">
             <h6>
-              Intern / Junior Web Developer
+              Intern
               <span className="font-bold"> @ Digitz</span>
             </h6>
             <p>2017 November – 2018 January</p>
@@ -103,26 +100,26 @@ class Experience extends Component {
                 </a>
               </li>
               <li>
-                Research work on different technologies
+                Research work on different technologies.
               </li>
               <li>
                 Multiple chatbots development for different clients seeking to improve their social
-                networking platform
+                networking platform.
               </li>
             </ul>
           </div>
           <div id="ninjaStrokes" className="col s12 center-align exp-col">
             <h6>
-              Intern/Junior Software Developer
+              Intern
               <span className=" font-bold"> @ Ninja Strokes</span>
             </h6>
             <p>2017 January– 2017 March</p>
 
             <ul className="responsibilities">
-              <li>Developed and maintained company's website</li>
+              <li>Developed and maintained company's website.</li>
               <li>
                 Developed and maintained company's daily accounting solution
-                using Java and MySql
+                using Java and MySql.
               </li>
             </ul>
           </div>
