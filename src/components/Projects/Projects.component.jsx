@@ -176,7 +176,7 @@ const Projects = () => {
             </div>
             <div className="row arhive">
                 <div className="col s12 m4 l4">
-                    <div className="card">
+                    <div className="card small">
                         <div className="card-content white-text">
                             <div className="row">
                                 <div className="col icons s12"><i className="far fa-folder"></i></div>
@@ -205,7 +205,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col s12 m4 l4">
-                    <div className="card">
+                    <div className="card small">
                         <div className="card-content white-text">
                             <div className="row">
                                 <div className="col icons s12"><i className="far fa-folder"></i></div>
@@ -234,7 +234,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col s12 m4 l4">
-                    <div className="card">
+                    <div className="card small">
                         <div className="card-content white-text">
                             <div className="row">
                                 <div className="col icons s12"><i className="far fa-folder"></i></div>
@@ -267,7 +267,7 @@ const Projects = () => {
             </div>
             <div className="row arhive">
                 <div className="col s12 m4 l4">
-                    <div className="card">
+                    <div className="card small">
                         <div className="card-content white-text">
                             <div className="row">
                                 <div className="col icons s12"><i className="far fa-folder"></i></div>
@@ -295,7 +295,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col s12 m4 l4">
-                    <div className="card">
+                    <div className="card small">
                         <div className="card-content white-text">
                             <div className="row">
                                 <div className="col icons s12"><i className="far fa-folder"></i></div>
@@ -322,7 +322,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col s12 m4 l4">
-                    <div className="card">
+                    <div className="card small">
                         <div className="card-content white-text">
                             <div className="row">
                                 <div className="col icons s12"><i className="far fa-folder"></i></div>
