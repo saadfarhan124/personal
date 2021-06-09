@@ -1,72 +1,69 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
 
-import ScrollReveal from 'scrollreveal';
+import ScrollReveal from "scrollreveal";
 
 export const Navbar = () => {
   const [slide, setSlide] = useState(0);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [loadedOnce, setLoadedOnce] = useState(false);
- 
+
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
-    
-    if(currentScrollY > lastScrollY){
+
+    if (currentScrollY > lastScrollY) {
       setSlide("-70px");
-    }else{
+    } else {
       setSlide("0px");
     }
     setLastScrollY(currentScrollY);
-    
-  }
+  };
 
   const scroll = (element) => {
     let offSetTop = document.getElementById(element).offsetTop;
     window.scrollTo({
-      top : offSetTop - 30,
-      behavior : 'smooth'
-    }); 
-  }
+      top: offSetTop - 30,
+      behavior: "smooth",
+    });
+  };
 
-  const reveal = (item, type="move") =>{
-    if(type === "move"){
+  const reveal = (item, type = "move") => {
+    if (type === "move") {
       ScrollReveal().reveal(item, {
-        distance: '150%',
-        origin: 'top',
+        distance: "150%",
+        origin: "top",
         opacity: null,
-        reset: false
+        reset: false,
       });
-    }else{
+    } else {
       ScrollReveal().reveal(item, {
-        distance: '50px',
+        distance: "50px",
         duration: 1000,
-        easing: 'ease',
+        easing: "ease",
         mobile: true,
         reset: true,
         viewFactor: 0.4,
-        reset: false
+        reset: false,
       });
     }
-  }
+  };
 
   const revealWithTimeout = (id, timeDelay = 2000) => {
     setTimeout(() => {
-      reveal(document.getElementById(id), "fade-in"); 
-    },timeDelay);
-  }
+      reveal(document.getElementById(id), "fade-in");
+    }, timeDelay);
+  };
 
-  useEffect(() =>{
+  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-   
-    
-    if(!loadedOnce){
+
+    if (!loadedOnce) {
       let navigationItems = document.getElementsByClassName("nav-item");
       var timeDelay = 35;
-      for(let key in navigationItems){
-        
+      for (let key in navigationItems) {
         setTimeout(() => {
-          reveal(navigationItems[key]); 
-        },timeDelay*(key+1))
+          reveal(navigationItems[key]);
+        }, timeDelay * (key + 1));
       }
 
       // timeDelay = 2000;
@@ -74,49 +71,47 @@ export const Navbar = () => {
       revealWithTimeout("leftpane");
       revealWithTimeout("rightpane");
       revealWithTimeout("about");
-      // reveal(document.getElementById("projects"), "fade-in"); 
+      // reveal(document.getElementById("projects"), "fade-in");
       revealWithTimeout("experience");
       revealWithTimeout("contact");
 
       setLoadedOnce(true);
     }
-    
   });
 
-  
   return (
-    <div >
+    <div>
       <div className="navbar-fixed">
         <nav
           style={{
             transition: "0.5s ease",
-            transform: `translate(0, ${slide})`
+            transform: `translate(0, ${slide})`,
           }}
         >
           <div className="nav-wrapper">
             <div className="left">
               <a href="#!" className="brand-logo">
-                <img src="/assets/logo-blue.png" alt=""/>
+                <img src="/assets/logo-blue.png" alt="" />
               </a>
             </div>
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger" >
+            <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
             <ul className="right hide-on-med-and-down">
-              <li  className="nav-item load-hidden">
+              <li className="nav-item load-hidden">
                 <a onClick={() => scroll("about")}>
                   <code>01.</code> About
                 </a>
               </li>
-              
+
               <li className="nav-item load-hidden">
                 <a onClick={() => scroll("projects")}>
-                  <code>03.</code> Work
+                  <code>02.</code> Work
                 </a>
               </li>
               <li className="nav-item load-hidden">
                 <a onClick={() => scroll("experience")}>
-                  <code>02.</code> Experience
+                  <code>03.</code> Experience
                 </a>
               </li>
               <li className="nav-item load-hidden">
@@ -125,7 +120,11 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item load-hidden">
-                <a href="https://drive.google.com/uc?export=download&id=1EIMS0SBGlKbOJEMsQ0ttayH9X76JIHEA" download className="waves-effect waves-light btn btn-resume">
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1EIMS0SBGlKbOJEMsQ0ttayH9X76JIHEA"
+                  download
+                  className="waves-effect waves-light btn btn-resume"
+                >
                   Resume
                 </a>
               </li>
@@ -133,7 +132,6 @@ export const Navbar = () => {
           </div>
         </nav>
       </div>
-      
 
       <ul className="sidenav" id="mobile-demo">
         <li>
@@ -151,21 +149,22 @@ export const Navbar = () => {
             <code>3.</code> Experience
           </a>
         </li>
-      
+
         <li onClick={() => scroll("contact")}>
-          <a >
+          <a>
             <code>4.</code> Contact
           </a>
         </li>
         <li>
-          <a href="https://drive.google.com/uc?export=download&id=1aGw4-dZ2ArZh41KC3QaIAds-P7bul48P" download className="waves-effect waves-light btn btn-resume">
+          <a
+            href="https://drive.google.com/uc?export=download&id=1aGw4-dZ2ArZh41KC3QaIAds-P7bul48P"
+            download
+            className="waves-effect waves-light btn btn-resume"
+          >
             Resume
           </a>
         </li>
       </ul>
-  </div>
-  )
-}
-
-  
-
+    </div>
+  );
+};
