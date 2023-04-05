@@ -1,6 +1,39 @@
 @import "../../Globals/Colors/colors";
 
+
 #projects {
+    #projectheading::after {
+        content: " ";
+        display: block;
+        width: 0%;
+        height: 2px;
+        background-color: $fifth;
+        transition: width 0.3s;
+        margin: 0 auto;
+      }
+      
+      #projectheading:hover::after {
+        width: 30%;
+      }
+      #projectheading {
+        text-align: center;
+      }
+      #otherprojectheading::after {
+        content: " ";
+        display: block;
+        width: 0%;
+        height: 2px;
+        background-color: $fifth;
+        transition: width 0.3s;
+        margin: 0 auto;
+      }
+      
+      #otherprojectheading:hover::after {
+        width: 88%;
+      }
+      #otherprojectheading {
+        text-align: center;
+      }
     .technologies, .links{
         ul{
             display: flex;

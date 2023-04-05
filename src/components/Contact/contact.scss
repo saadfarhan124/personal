@@ -1,11 +1,21 @@
+@import "../../Globals/Colors/colors";
+
 #contact {
  
 
   #contactHeading::after {
-    position: relative;
-    left: 15%;
+    content: " " ;
+    display: block ;
+    width: 0% ;
+    height: 2px ;
+    background-color: $fifth ;
+    transition: width 0.3s ;
+    margin: 0 auto ;
   }
 
+  #contactHeading:hover::after {
+    width: 40% ;
+  }
   #contactHeading {
     text-align: center;
   }
