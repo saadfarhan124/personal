@@ -2,15 +2,6 @@
 
 
 
-#experienceheading::after {
-  position: relative;
-  left: 50px;
-}
-
-#experienceheading {
-  text-align: center;
-}
-
 
 
 
@@ -42,6 +33,23 @@ button {
   padding-bottom: 0px;
 }
 #experience {
+  #experienceheading::after {
+    content: " ";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: $fifth;
+    transition: width 0.3s;
+    margin: 0 auto;
+  }
+  
+  #experienceheading:hover::after {
+    width: 55%;
+  }
+  #experienceheading {
+    text-align: center;
+  }
+  
   padding-top: 0px !important;
 
   .section-number{

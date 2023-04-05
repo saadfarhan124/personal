@@ -45,8 +45,8 @@ const Projects = () => {
         <div className="row">
           <div className="col m12 s12">
             <h4
-              className="heading text-center hvr-underline-from-center"
-              id="experienceheading"
+              className="heading text-center "
+              id="projectheading"
             >
               <code className="section-number">02.</code>Projects
             </h4>
@@ -244,8 +244,8 @@ const Projects = () => {
         <div className="row">
           <div className="col m12 s12">
             <h4
-              className="heading text-center hvr-underline-from-center"
-              id="experienceheading"
+              className="heading text-center "
+              id="otherprojectheading"
             >
               Other projects that I've worked on
             </h4>
