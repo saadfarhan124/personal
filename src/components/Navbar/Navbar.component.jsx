@@ -121,7 +121,8 @@ export const Navbar = () => {
               </li>
               <li className="nav-item load-hidden">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1EIMS0SBGlKbOJEMsQ0ttayH9X76JIHEA"
+                // https://drive.google.com/file/d/1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM/view?usp=sharing
+                  href="https://drive.google.com/uc?export=download&id=1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM"
                   download
                   className="waves-effect waves-light btn btn-resume"
                 >
