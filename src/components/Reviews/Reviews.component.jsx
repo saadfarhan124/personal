@@ -27,7 +27,15 @@ const data = [
 
 export const Reviews = () => (
   <section className="container testContainer" id="Reviews">
-    <swiper-container navigation="true" loop={true}>
+    <swiper-container
+      navigation="true"
+      loop={true}
+      style={{
+        "--swiper-navigation-size": "32px",
+      }}
+      autoplay={true}
+      speed="1000"
+    >
       {data.map((item, index) => (
         <swiper-slide key={index}>
           <div className="testItemContainer">
@@ -41,8 +49,7 @@ export const Reviews = () => (
 
             <p style={{ fontSize: 18 }}>{item.title}</p>
             <p style={{ width: "80%", textAlign: "center" }}>
-              <i className="fas fa-quote-left pe-2"></i>{" "}
-              {item.review} 
+              <i className="fas fa-quote-left pe-2"></i> {item.review}
             </p>
           </div>
         </swiper-slide>
