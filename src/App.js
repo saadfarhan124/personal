@@ -7,6 +7,8 @@ import { RightPane } from "./components/RightPane/RightPane.component";
 import { Footer } from "./components/Footer/Footer.component";
 import { About } from "./components/About/About.component";
 import { Contact } from "./components/Contact/Contact.component";
+import { Reviews } from "./components/Reviews/Reviews.component";
+
 import Projects from "./components/Projects/Projects.component";
 
 import Experience from "./components/Experience/Experience.component";
@@ -26,6 +28,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <Reviews />
       <Footer />
     </div>
   );
