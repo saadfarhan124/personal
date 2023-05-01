@@ -47,15 +47,14 @@
 }
 
 .social {
-  fill: $blue-tint;
-
+  color: $blue-tint;
   svg {
     transition: 0.5s linear;
   }
 }
 
 .social:hover {
-  fill: $third;
+  color: $third;
 
   svg {
     transition: 0.5s linear;

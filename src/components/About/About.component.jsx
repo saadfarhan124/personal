@@ -23,10 +23,10 @@ export const About = () => (
           <div className="row technologies">
             <div className="col-sm-6 first-list">
               <ul>
-                <li>MERN</li>
+                <li>GoLang</li>
                 <li>React Native</li>
-                <li>Code Igniter</li>
-                <li>ASP.NET</li>
+                <li>Docker</li>
+                <li>PostgreSQL</li>
 
               </ul>
             </div>
@@ -34,8 +34,8 @@ export const About = () => (
               <ul>
                 <li>Android (Kotlin and Java)</li>
                 <li>Python</li>
-                <li>WordPress</li>
-                <li>Electron JS</li>
+                <li>ASP.NET</li>
+                <li>React JS</li>
               </ul>
             </div>
           </div>

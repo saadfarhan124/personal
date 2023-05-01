@@ -28,6 +28,18 @@ const Projects = () => {
   const XtremeHardwareechList = ["WordPress", "WooCommerce", "WP Page Builder"];
   const XtremeHardwareItems = mapToSpan(XtremeHardwareechList);
 
+  const CDL1000TechList = [
+    "NextJS",
+    "Go Fiber",
+    "PostgreSQL",
+    "GCP",
+    "Cloud Run",
+    "Cloud Build",
+    "Julia Lang",
+    "Genie Framework"
+  ]
+  const CDLItems = mapToSpan(CDL1000TechList)
+
   const StanleyTechList = [
     "Python",
     "Electron JS",
@@ -58,19 +70,18 @@ const Projects = () => {
         <div className="col s12 m8 l8">
           <img
             className="responsive-img project-image"
-            src="/assets/usdoctors.png"
+            src="/assets/cdl1000.png"
           ></img>
         </div>
         <div className="col s12 m4 l4 right">
           <div className="valign-wrapper full-height">
             <div className="valign">
-              <h4 className="right-align">USDoctors</h4>
+              <h4 className="right-align">CDL 100 Quoting Engine</h4>
               <div className="card-wrapper">
                 <div className="card right-overlap">
                   <div className="card-content">
                     <p>
-                      An E-Learning Platform connecting Preceptors from all over
-                      the US to physcians in training
+                    This is a web-based quoting engine that allows customers to book shipments for either Drayage or Truckload, with the option to pay online or later through Stripe invoicing. The frontend of the platform was developed using NextJS, while the backend follows a microservice architecture, utilizing GoFiber and PostgresSQL for development.
                     </p>
                   </div>
                 </div>
@@ -79,16 +90,30 @@ const Projects = () => {
               <div className="technologies">
                 <div className="row">
                   <ul>
-                    {USDoctorsSpanItems.map((item, key) => (
+                    {CDLItems.map((item, key) => (
                       <li className={key}>{item}</li>
                     ))}
                   </ul>
                 </div>
               </div>
+              <div className="links mt-5">
+                <ul>
+                  <li>
+                    <a
+                      href="https://development.cdl1000.com/quote"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa fa-external-link-alt"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="row mt-20 flex project text-and-image-container">
         <div className="col s12 m4 l4 ">
           <div className="valign-wrapper full-height">
@@ -145,52 +170,43 @@ const Projects = () => {
           ></img>
         </div>
       </div>
-      <div className="row mt-20 flex project">
-        <div className="col s12 m8 l68">
+
+      <div className="row mt-20 flex project ">
+        <div className="col s12 m8 l8">
           <img
             className="responsive-img project-image"
-            src="/assets/xtreme.png"
+            src="/assets/usdoctors.png"
           ></img>
         </div>
-        <div className="col s12 m4 l4 ">
+        <div className="col s12 m4 l4 right">
           <div className="valign-wrapper full-height">
             <div className="valign">
-              <h4 className="right-align">Xtreme Hardware</h4>
-
-              <div className="card right-overlap">
-                <div className="card-content">
-                  <p>
-                    An E-Commerce based startup providing computer hardware to
-                    people all over Pakistan.
-                  </p>
+              <h4 className="right-align">USDoctors</h4>
+              <div className="card-wrapper">
+                <div className="card right-overlap">
+                  <div className="card-content">
+                    <p>
+                      An E-Learning Platform connecting Preceptors from all over
+                      the US to physcians in training
+                    </p>
+                  </div>
                 </div>
               </div>
+
               <div className="technologies">
                 <div className="row">
                   <ul>
-                    {XtremeHardwareItems.map((item) => (
-                      <li>{item}</li>
+                    {USDoctorsSpanItems.map((item, key) => (
+                      <li className={key}>{item}</li>
                     ))}
                   </ul>
                 </div>
-              </div>
-              <div className="links mt-5">
-                <ul>
-                  <li>
-                    <a
-                      href="https://xtremehardware.pk/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa fa-external-link-alt"></i>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className="row mt-20 flex project text-and-image-container">
         <div className="col s12 m4 l4 ">
           <div className="valign-wrapper full-height">
@@ -240,6 +256,54 @@ const Projects = () => {
         </div>
       </div>
 
+      <div className="row mt-20 flex project">
+        <div className="col s12 m8 l68">
+          <img
+            className="responsive-img project-image"
+            src="/assets/xtreme.png"
+          ></img>
+        </div>
+        <div className="col s12 m4 l4 ">
+          <div className="valign-wrapper full-height">
+            <div className="valign">
+              <h4 className="right-align">Xtreme Hardware</h4>
+
+              <div className="card right-overlap">
+                <div className="card-content">
+                  <p>
+                    An E-Commerce based startup providing computer hardware to
+                    people all over Pakistan.
+                  </p>
+                </div>
+              </div>
+              <div className="technologies">
+                <div className="row">
+                  <ul>
+                    {XtremeHardwareItems.map((item) => (
+                      <li>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              <div className="links mt-5">
+                <ul>
+                  <li>
+                    <a
+                      href="https://xtremehardware.pk/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa fa-external-link-alt"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+
       <div className="container heading-container">
         <div className="row">
           <div className="col m12 s12">
@@ -253,6 +317,56 @@ const Projects = () => {
         </div>
       </div>
       <div className="row arhive">
+
+      <div className="col s12 m4 l4">
+          <div className="card small">
+            <div className="card-content white-text">
+              <div className="row">
+                <div className="col icons s12">
+                  <i className="far fa-folder"></i>
+                </div>
+              </div>
+              <div className="row mt-5">
+                <div className="col s12">
+                  <span className="card-title">Flutter Facebook SDK</span>
+                  <p>
+                    A Flutter plugin used to fetch Facebook deep links and log app events
+                  </p>
+                  <div className="links mt-5">
+                    <ul>
+                      <li>Dart</li>
+                      <li>Kotlin</li>
+                      <li>Swift</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="links mt-5">
+                <ul>
+                  <li>
+                    <a
+                      href="https://pub.dev/packages/flutter_facebook_sdk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa fa-external-link-alt"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/saadfarhan124/flutter_facebook_sdk"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="col s12 m4 l4">
           <div className="card small">
             <div className="card-content white-text">
@@ -266,9 +380,8 @@ const Projects = () => {
                 <div className="col s12">
                   <span className="card-title">Reddit Data Scrapper</span>
                   <p>
-                    A reddit post data scrapper built using the PRAW API that
-                    fetches posts data, comments, replies and stores them in a
-                    SQLite database
+                    Reddit scrapper built using PRAW API that
+                    fetches posts, comments and replies
                   </p>
                   <div className="links mt-5">
                     <ul>
@@ -293,55 +406,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col s12 m4 l4">
-          <div className="card small">
-            <div className="card-content white-text">
-              <div className="row">
-                <div className="col icons s12">
-                  <i className="far fa-folder"></i>
-                </div>
-              </div>
-              <div className="row mt-5">
-                <div className="col s12">
-                  <span className="card-title">Node Calculator</span>
-                  <p>
-                    A simple calculator developed using Node JS to calculate
-                    BMI, PPI, Volume of a cylinder and perimeter of rectangle
-                  </p>
-                  <div className="links mt-5">
-                    <ul>
-                      <li>Node JS</li>
-                      <li>Express JS</li>
-                      <li>React JS</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="links mt-5">
-                <ul>
-                  <li>
-                    <a
-                      href="https://github.com/saadfarhan124/nodeCalculator"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://calculator-nodereactjs.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa fa-external-link-alt"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+     
         <div className="col s12 m4 l4">
           <div className="card small">
             <div className="card-content white-text">
