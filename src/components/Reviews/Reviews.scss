@@ -3,3 +3,24 @@
 .designation{
     color: $primary-color !important;
 }
+
+.testContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testItemContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testItemImg{
+    width: 120px !important;
+    object-fit: cover;
+    height: 120px !important;
+    border-radius: 100px,;
+}

@@ -17,7 +17,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0",
     "sass": "^1.55.0",
-    "scrollreveal": "^4.0.7"
+    "scrollreveal": "^4.0.7",
+    "swiper": "^9.2.4"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
