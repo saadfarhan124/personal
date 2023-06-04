@@ -127,7 +127,7 @@ export const Navbar = () => {
               </li>
               <li className="nav-item load-hidden">
                 <a
-                // https://drive.google.com/file/d/1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM/view?usp=sharing
+                  // https://drive.google.com/file/d/1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM/view?usp=sharing
                   href="https://drive.google.com/uc?export=download&id=1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM"
                   download
                   className="waves-effect waves-light btn btn-resume"
@@ -169,7 +169,7 @@ export const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/uc?export=download&id=1aGw4-dZ2ArZh41KC3QaIAds-P7bul48P"
+            href="https://drive.google.com/uc?export=download&id=1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM"
             download
             className="waves-effect waves-light btn btn-resume"
           >
