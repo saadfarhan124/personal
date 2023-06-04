@@ -27,9 +27,8 @@ export const Landing = () => {
           <div className="col s12 l8 m8">
             <div className="about-info">
               <p className="left-align">
-                I am an independent software engineer from Karachi specializing
-                in building complex back end and occasionally designing the
-                front end.
+                Building complex back-ends in conjunction with sleek front-ends for seamless software experiences.
+
               </p>
             </div>
           </div>

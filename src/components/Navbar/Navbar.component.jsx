@@ -73,6 +73,7 @@ export const Navbar = () => {
       revealWithTimeout("about");
       // reveal(document.getElementById("projects"), "fade-in");
       revealWithTimeout("experience");
+      revealWithTimeout("testimonials");
       revealWithTimeout("contact");
 
       setLoadedOnce(true);
@@ -115,8 +116,13 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item load-hidden">
+                <a onClick={() => scroll("testimonials")}>
+                  <code>04.</code> Testimonials
+                </a>
+              </li>
+              <li className="nav-item load-hidden">
                 <a onClick={() => scroll("contact")}>
-                  <code>04.</code> Contact
+                  <code>05.</code> Contact
                 </a>
               </li>
               <li className="nav-item load-hidden">
@@ -150,10 +156,15 @@ export const Navbar = () => {
             <code>3.</code> Experience
           </a>
         </li>
+        <li>
+          <a onClick={() => scroll("testimonials")}>
+            <code>4.</code> Testimonials
+          </a>
+        </li>
 
         <li onClick={() => scroll("contact")}>
           <a>
-            <code>4.</code> Contact
+            <code>5.</code> Contact
           </a>
         </li>
         <li>
