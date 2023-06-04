@@ -73,6 +73,7 @@ export const Navbar = () => {
       revealWithTimeout("about");
       // reveal(document.getElementById("projects"), "fade-in");
       revealWithTimeout("experience");
+      revealWithTimeout("testimonials");
       revealWithTimeout("contact");
 
       setLoadedOnce(true);
@@ -115,13 +116,18 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item load-hidden">
+                <a onClick={() => scroll("testimonials")}>
+                  <code>04.</code> Testimonials
+                </a>
+              </li>
+              <li className="nav-item load-hidden">
                 <a onClick={() => scroll("contact")}>
-                  <code>04.</code> Contact
+                  <code>05.</code> Contact
                 </a>
               </li>
               <li className="nav-item load-hidden">
                 <a
-                // https://drive.google.com/file/d/1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM/view?usp=sharing
+                  // https://drive.google.com/file/d/1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM/view?usp=sharing
                   href="https://drive.google.com/uc?export=download&id=1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM"
                   download
                   className="waves-effect waves-light btn btn-resume"
@@ -150,15 +156,20 @@ export const Navbar = () => {
             <code>3.</code> Experience
           </a>
         </li>
+        <li>
+          <a onClick={() => scroll("testimonials")}>
+            <code>4.</code> Testimonials
+          </a>
+        </li>
 
         <li onClick={() => scroll("contact")}>
           <a>
-            <code>4.</code> Contact
+            <code>5.</code> Contact
           </a>
         </li>
         <li>
           <a
-            href="https://drive.google.com/uc?export=download&id=1aGw4-dZ2ArZh41KC3QaIAds-P7bul48P"
+            href="https://drive.google.com/uc?export=download&id=1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM"
             download
             className="waves-effect waves-light btn btn-resume"
           >

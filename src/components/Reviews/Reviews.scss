@@ -3,3 +3,60 @@
 .designation{
     color: $primary-color !important;
 }
+
+.testContainer{
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testItemContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testItemImg{
+    width: 120px !important;
+    object-fit: cover;
+    height: 120px !important;
+    border-radius: 100px,;
+}
+
+
+ 
+
+  #contactHeading::after {
+    content: " " ;
+    display: block ;
+    width: 0% ;
+    height: 2px ;
+    background-color: $fifth ;
+    transition: width 0.3s ;
+    margin: 0 auto ;
+  }
+
+  #contactHeading:hover::after {
+    width: 25% ;
+  }
+  #contactHeading {
+    text-align: center;
+  }
+
+  .contextText {
+    padding-top: 0px;
+  }
+
+  .heading-container {
+    padding-bottom: 0px;
+  }
+
+  .btn-div {
+    margin-top: 15px;
+  }
+
+  .section-number{
+    font-size: 1.5rem;
+  }

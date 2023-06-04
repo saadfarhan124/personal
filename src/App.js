@@ -27,8 +27,8 @@ function App() {
       <About />
       <Projects />
       <Experience />
-      <Contact />
       <Reviews />
+      <Contact />
       <Footer />
     </div>
   );

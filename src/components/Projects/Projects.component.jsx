@@ -36,9 +36,9 @@ const Projects = () => {
     "Cloud Run",
     "Cloud Build",
     "Julia Lang",
-    "Genie Framework"
-  ]
-  const CDLItems = mapToSpan(CDL1000TechList)
+    "Genie Framework",
+  ];
+  const CDLItems = mapToSpan(CDL1000TechList);
 
   const StanleyTechList = [
     "Python",
@@ -56,10 +56,7 @@ const Projects = () => {
       <div className="container heading-container">
         <div className="row">
           <div className="col m12 s12">
-            <h4
-              className="heading text-center "
-              id="projectheading"
-            >
+            <h4 className="heading text-center " id="projectheading">
               <code className="section-number">02.</code>Projects
             </h4>
           </div>
@@ -76,12 +73,14 @@ const Projects = () => {
         <div className="col s12 m4 l4 right">
           <div className="valign-wrapper full-height">
             <div className="valign">
-              <h4 className="right-align">CDL 100 Quoting Engine</h4>
+              <h5 className="right-align">CDL1000 Quoting</h5>
               <div className="card-wrapper">
                 <div className="card right-overlap">
                   <div className="card-content">
                     <p>
-                    This is a web-based quoting engine that allows customers to book shipments for either Drayage or Truckload, with the option to pay online or later through Stripe invoicing. The frontend of the platform was developed using NextJS, while the backend follows a microservice architecture, utilizing GoFiber and PostgresSQL for development.
+                      This web-based quoting engine enables customers to book
+                      Drayage or Truckload shipments and make payments online or
+                      later through Stripe invoicing.
                     </p>
                   </div>
                 </div>
@@ -118,7 +117,7 @@ const Projects = () => {
         <div className="col s12 m4 l4 ">
           <div className="valign-wrapper full-height">
             <div className="valign">
-              <h4 className="left-align">Sath Chaloo</h4>
+              <h5 className="left-align">Sath Chaloo</h5>
 
               <div className="card left-overlap">
                 <div className="card-content">
@@ -181,7 +180,7 @@ const Projects = () => {
         <div className="col s12 m4 l4 right">
           <div className="valign-wrapper full-height">
             <div className="valign">
-              <h4 className="right-align">USDoctors</h4>
+              <h5 className="right-align">USDoctors</h5>
               <div className="card-wrapper">
                 <div className="card right-overlap">
                   <div className="card-content">
@@ -211,7 +210,7 @@ const Projects = () => {
         <div className="col s12 m4 l4 ">
           <div className="valign-wrapper full-height">
             <div className="valign">
-              <h4 className="left-align">Stanley</h4>
+              <h5 className="left-align">Stanley</h5>
 
               <div className="card left-overlap">
                 <div className="card-content">
@@ -266,7 +265,7 @@ const Projects = () => {
         <div className="col s12 m4 l4 ">
           <div className="valign-wrapper full-height">
             <div className="valign">
-              <h4 className="right-align">Xtreme Hardware</h4>
+              <h5 className="right-align">Xtreme Hardware</h5>
 
               <div className="card right-overlap">
                 <div className="card-content">
@@ -302,23 +301,18 @@ const Projects = () => {
           </div>
         </div>
       </div>
-     
 
       <div className="container heading-container">
         <div className="row">
           <div className="col m12 s12">
-            <h4
-              className="heading text-center "
-              id="otherprojectheading"
-            >
+            <h4 className="heading text-center " id="otherprojectheading">
               Other projects that I've worked on
             </h4>
           </div>
         </div>
       </div>
       <div className="row arhive">
-
-      <div className="col s12 m4 l4">
+        <div className="col s12 m4 l4">
           <div className="card small">
             <div className="card-content white-text">
               <div className="row">
@@ -330,7 +324,8 @@ const Projects = () => {
                 <div className="col s12">
                   <span className="card-title">Flutter Facebook SDK</span>
                   <p>
-                    A Flutter plugin used to fetch Facebook deep links and log app events
+                    A Flutter plugin used to fetch Facebook deep links and log
+                    app events
                   </p>
                   <div className="links mt-5">
                     <ul>
@@ -380,8 +375,8 @@ const Projects = () => {
                 <div className="col s12">
                   <span className="card-title">Reddit Data Scrapper</span>
                   <p>
-                    Reddit scrapper built using PRAW API that
-                    fetches posts, comments and replies
+                    Reddit scrapper built using PRAW API that fetches posts,
+                    comments and replies
                   </p>
                   <div className="links mt-5">
                     <ul>
@@ -406,7 +401,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-     
+
         <div className="col s12 m4 l4">
           <div className="card small">
             <div className="card-content white-text">

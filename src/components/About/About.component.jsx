@@ -14,14 +14,19 @@ export const About = () => (
       <div className="row text-and-image-container">
         <div className="col m8 s12">
           <p>
-            Driven by knowledge, and a general enthusiasm for problem solving, I
-            am an independent software engineer who has brought multiple
-            projects to completion and been an important asset in every project.
-            I have honed my skills to excel in MERN, Python, Android Development
-            and CodeIgniter, focusing on core concepts and not limiting myself
-            to a single stack. I am an ambitious individual who is eager to
-            learn new things and keep my arsenal updated with innovative
-            technologies.
+            As a seasoned software engineer, I have successfully completed
+            multiple projects, leveraging my knowledge and passion for
+            problem-solving to deliver exceptional outcomes. My expertise spans
+            a diverse range of technologies, including GoLang, Flutter, Python,
+            Android Development, and CodeIgniter.I maintain a steadfast
+            commitment to mastering core concepts while keeping pace with
+            emerging trends in the industry. In addition to my technical
+            expertise, I have a strong interest in teaching and mentoring, and
+            have enjoyed writing articles on{" "}
+            <a target="_blank" href="https://medium.com/@saadfarhan124">
+              Medium
+            </a>{" "}
+            to share my knowledge and experience with others.
           </p>
           {/* <div className="row"> */}
           <p>Here are a few technologies I've been working with recently:</p>

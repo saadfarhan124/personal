@@ -6,7 +6,7 @@ export const Contact = () => (
     <div className="container heading-container">
       <div className="row">
         <h4 className="heading text-center " id="contactHeading">
-          <code className="section-number">04.</code>Get In Touch
+          <code className="section-number">05.</code>Get In Touch
         </h4>
       </div>
     </div>
