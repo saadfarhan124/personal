@@ -99,7 +99,7 @@ const Projects = () => {
                 <ul>
                   <li>
                     <a
-                      href="https://development.cdl1000.com/quote"
+                      href="https://cdl1000.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
