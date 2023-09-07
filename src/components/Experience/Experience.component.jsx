@@ -37,10 +37,10 @@ class Experience extends Component {
           </div>
           <div id="cdl1000" className="col s12 center-align exp-col">
             <h6>
-              Product Engineer
+              Lead Software Engineer
               <span className="font-bold"> @ CDL1000</span>
             </h6>
-            <p>September 2021 - Present</p>
+            <p>September 2021 - June 2023</p>
             <ul className="responsibilities">
               <li>
                 Spearheaded the development of multiple in-house products using
@@ -72,8 +72,8 @@ class Experience extends Component {
                 ensure efficient system functionality.
               </li>
               <li>
-                Set up Google Cloud infrastructure and services, including Cloud
-                Run, Cloud Build, Memory Store, and SQL.
+                Set up Google Cloud Platform (GCP) infrastructure and services,
+                including Cloud Run, Cloud Build, Memory Store, and SQL.
               </li>
             </ul>
           </div>
@@ -97,8 +97,8 @@ class Experience extends Component {
                   href="https://pub.dev/packages/flutter_facebook_sdk"
                 >
                   Flutter plugin
-                </a>
-                {" "}that supports both Android and iOS for Facebook deep linking and
+                </a>{" "}
+                that supports both Android and iOS for Facebook deep linking and
                 app event logging.
               </li>
               <li>
