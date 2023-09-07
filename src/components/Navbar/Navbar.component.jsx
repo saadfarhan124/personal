@@ -128,8 +128,8 @@ export const Navbar = () => {
               <li className="nav-item load-hidden">
                 <a
                   // https://drive.google.com/file/d/1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM/view?usp=sharing
-                  // https://drive.google.com/file/d/1vNAsfC6FgeMmvr1zW7mDl5fR8hy8SPOm/view?usp=sharing
-                  href="https://drive.google.com/uc?export=download&id=1vNAsfC6FgeMmvr1zW7mDl5fR8hy8SPOm"
+                  // https://drive.google.com/file/d/1NozNT3Ha3AqnhggKZxBap5RVN3KBd3WL/view?usp=sharing
+                  href="https://drive.google.com/uc?export=download&id=1NozNT3Ha3AqnhggKZxBap5RVN3KBd3WL"
                   download
                   className="waves-effect waves-light btn btn-resume"
                 >

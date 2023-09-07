@@ -82,7 +82,7 @@ class Experience extends Component {
               Software Engineer
               <span className="font-bold"> @ OctoberNow</span>
             </h6>
-            <p>August 2021 - September 2021</p>
+            <p>February 2021 - September 2021</p>
             <ul className="responsibilities">
               <li>
                 Maintained and enhanced multiple mobile apps created in Flutter.
@@ -116,7 +116,7 @@ class Experience extends Component {
               Software Engineer
               <span className="font-bold"> @ Xortox</span>
             </h6>
-            <p>June 2020 - June 2021</p>
+            <p>June 2020 - January 2021</p>
             <ul className="responsibilities">
               <li>Requirement gathering from clients.</li>
               <li>
