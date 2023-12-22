@@ -43,37 +43,56 @@ class Experience extends Component {
             <p>September 2021 - June 2023</p>
             <ul className="responsibilities">
               <li>
-                Spearheaded the development of multiple in-house products using
-                containerized Go-based microservices built with the Go Fiber
-                Framework.
+                Initiated the development of multiple in-house products,
+                including a rate calculator and loadboard, from scratch.
+                Utilized containerized Go-based microservices built with the
+                Fiber Framework
               </li>
               <li>
-                Devised the necessary architecture and environments to ensure
-                smooth product delivery.
+                Orchestrated the rebranding initiative for the website,
+                overseeing its development and ensuring a successful deployment
+                that aligned with the company's updated brand identity.
               </li>
               <li>
-                Led a team of skilled developers and ensured high-quality
-                completion of all projects.
+                Led the development of a Flutter-based tracking application
+                designed for in-house deliveries, showcasing leadership in
+                adopting cutting-edge technologies for improved operational
+                efficiency.
               </li>
               <li>
-                Coordinated with external agencies to integrate third-party APIs
-                and services into the products.
+                Successfully managed and maintained websites for sibling
+                companies, ensuring their continued functionality and alignment
+                with business objectives.
               </li>
               <li>
-                Revamped and optimized existing websites, leveraging modern tech
-                stacks for optimal performance.
+                Devised essential architecture and environments to guarantee the
+                smooth delivery of products, emphasizing a strategic approach to
+                infrastructure setup.
               </li>
               <li>
-                Implemented CI/CD pipelines using Google Cloud Build to
-                streamline the development process.
+                Led and supervised a team of skilled developers, ensuring the
+                high-quality completion of all projects. Fostered a
+                collaborative environment that promoted excellence.
               </li>
               <li>
-                Managed and oversaw Salesforce and multiple integrations to
-                ensure efficient system functionality.
+                Coordinated with external agencies to seamlessly integrate
+                third-party APIs and services into the developed products,
+                enhancing their functionality and features.
+              </li>
+              <li>
+                Implemented Continuous Integration/Continuous Deployment (CI/CD)
+                pipelines using Google Cloud Build, streamlining the development
+                process for increased efficiency.
+              </li>
+              <li>
+                Oversaw Salesforce and multiple integrations, ensuring the
+                efficient functionality of the system and maintaining a seamless
+                workflow.
               </li>
               <li>
                 Set up Google Cloud Platform (GCP) infrastructure and services,
-                including Cloud Run, Cloud Build, Memory Store, and SQL.
+                including Cloud Run, Cloud Build, Memory Store, and SQL,
+                demonstrating expertise in cloud-based solutions.
               </li>
             </ul>
           </div>
@@ -85,29 +104,49 @@ class Experience extends Component {
             <p>February 2021 - September 2021</p>
             <ul className="responsibilities">
               <li>
-                Maintained and enhanced multiple mobile apps created in Flutter.
+                Took charge of maintaining and enhancing various mobile apps
+                developed in Flutter, ensuring their ongoing optimization and
+                functionality.
               </li>
               <li>
-                Implemented platform-specific functionality in Flutter apps.
+                Diagnosed and rectified critical bugs on various devices,
+                prioritizing rapid debugging to maintain a seamless user
+                experience.
               </li>
               <li>
-                Developed an open-source{" "}
+                Addressed an incorrect implementation of an audio-to-text
+                feature in the production app, resolving unexpected behavior and
+                crashes by implementing the Singleton Principle.
+              </li>
+              <li>
+                Demonstrated a commitment to code quality by implementing SOLID
+                and Design Principles, elevating the overall robustness and
+                maintainability of the codebase.
+              </li>
+              <li>
+                Successfully integrated platform-specific functionality within
+                Flutter apps, ensuring a cohesive user experience across
+                different operating systems.
+              </li>
+              <li>
+                Contributed to the Flutter community by creating an{" "}
                 <a
                   target="_blank"
                   href="https://pub.dev/packages/flutter_facebook_sdk"
                 >
-                  Flutter plugin
+                  open-source plugin
                 </a>{" "}
-                that supports both Android and iOS for Facebook deep linking and
-                app event logging.
+                supporting Android and iOS, specifically designed for Facebook
+                deep linking and app event logging.
               </li>
               <li>
-                Developed, maintained, and enhanced microservices using Spring
-                Boot.
+                Played a key role in developing, maintaining, and enhancing
+                microservices using Spring Boot, contributing to the overall
+                efficiency and scalability of the system.
               </li>
               <li>
-                Created serverless computing solutions using Google Cloud
-                Functions.
+                Innovatively designed and implemented serverless computing
+                solutions using Google Cloud Functions.
               </li>
             </ul>
           </div>
@@ -118,25 +157,44 @@ class Experience extends Component {
             </h6>
             <p>June 2020 - January 2021</p>
             <ul className="responsibilities">
-              <li>Requirement gathering from clients.</li>
               <li>
-                Implementation, deployment, QA, and reviewing changes with
-                clients.
+                Led the comprehensive collection of client requirements,
+                ensuring a thorough understanding of their needs and
+                expectations.
               </li>
               <li>
-                Developed and maintained multiple platforms using technologies
-                such as CodeIgniter, WordPress, React Native, React JS, etc.
+                Orchestrated seamless implementation, deployment, and QA
+                processes, guaranteeing the delivery of high-quality solutions.
+                Conducted thorough reviews with clients to validate changes and
+                ensure alignment with their objectives.
               </li>
               <li>
-                Developed APIs and configured third-party APIs to enable
-                communication between different systems.
+                Enhanced the deployment workflow for improved efficiency.
+                Implemented effective repository management using GIT, fostering
+                a collaborative and organized development environment.
               </li>
               <li>
-                Developed mobile applications using Hybrid technology (React
-                Native) and Native Android development (Kotlin and Java).
+                Successfully developed and maintained diverse platforms
+                utilizing a range of technologies, including CodeIgniter,
+                WordPress, React Native, React JS, showcasing adaptability and
+                expertise across various frameworks.
               </li>
-              <li>Configured and customized different third-party plugins.</li>
-              <li>Conducted research and development.</li>
+              <li>
+                Developed robust APIs and facilitated the integration of
+                third-party APIs, establishing seamless communication between
+                different systems, enhancing interoperability.
+              </li>
+              <li>
+                Led the development of mobile applications using both Hybrid
+                technology (React Native) and Native Android development (Kotlin
+                and Java), showcasing versatility and proficiency in diverse
+                development approaches.
+              </li>
+              <li>
+                Configured and customized various third-party plugins, tailoring
+                them to specific project requirements and ensuring optimal
+                functionality.
+              </li>
             </ul>
           </div>
           <div id="szabist" className="col s12 center-align exp-col">
@@ -145,27 +203,33 @@ class Experience extends Component {
               <span className="font-bold"> @ Szabist</span>
             </h6>
             <p>June 2019 - June 2020</p>
-
             <ul className="responsibilities">
               <li>
-                Developed Alumni Portal using ASP.Net, JQuery, JavaScript, HTML,
-                CSS, and AJAX.
+                Elevated the Alumni Portal by leveraging ASP.Net, JQuery,
+                JavaScript, HTML, CSS, and AJAX, enhancing user interaction and
+                experience.
               </li>
               <li>
-                Built a landing page using the MERN stack to visualize data
-                collected from different machines.
+                Pioneered a dynamic landing page using the MERN stack, providing
+                a visually intuitive representation of data collected from
+                diverse machines.
               </li>
               <li>
-                Analyzed and visualized data, and applied various machine
-                learning models to predict tool wear.
+                Applied advanced data analysis techniques and implemented
+                various machine learning models to predict tool wear,
+                contributing to more informed decision-making.
               </li>
               <li>
-                Engaged in general-purpose programming to fulfill team
-                requirements, including the development of the team's progress
-                website and landing pages for different industries to view their
-                data.
+                Played a pivotal role in enhancing team productivity by engaging
+                in general-purpose programming. Developed a comprehensive team
+                progress website and tailored landing pages for different
+                industries, meeting diverse data visualization needs.
               </li>
-              <li>Managed and supervised different Final Year Projects.</li>
+              <li>
+                Successfully managed and supervised various Final Year Projects,
+                ensuring their timely completion and aligning with the team's
+                objectives.
+              </li>
             </ul>
           </div>
         </div>
