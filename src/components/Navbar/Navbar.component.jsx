@@ -170,7 +170,7 @@ export const Navbar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/uc?export=download&id=1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM"
+            href="https://drive.google.com/uc?export=download&id=1HvTEdm36Fzu1Y5zKEZrdSNeFW--8Ynwh"
             download
             className="waves-effect waves-light btn btn-resume"
           >
