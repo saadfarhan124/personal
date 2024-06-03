@@ -129,7 +129,7 @@ export const Navbar = () => {
                 <a
                   // https://drive.google.com/file/d/1DFCvsHnHKLKGW9tOYV1knSrbNKtV7DJM/view?usp=sharing
                   // https://drive.google.com/file/d/1NozNT3Ha3AqnhggKZxBap5RVN3KBd3WL/view?usp=sharing
-                  href="https://drive.google.com/uc?export=download&id=1HvTEdm36Fzu1Y5zKEZrdSNeFW--8Ynwh"
+                  href="https://drive.google.com/uc?export=download&id=1qWBfwJ2GogUK6YAr7gbuRx-oSknqVBm_"
                   download
                   className="waves-effect waves-light btn btn-resume"
                 >

@@ -21,7 +21,7 @@ class Experience extends Component {
             <ul className="tabs experience-tabs">
               <li className="tab col s3">
                 <a className="active" href="#cdl1000">
-                  CDL1000
+                  Code Clan
                 </a>
               </li>
               <li className="tab col s3">
@@ -38,61 +38,57 @@ class Experience extends Component {
           <div id="cdl1000" className="col s12 center-align exp-col">
             <h6>
               Lead Software Engineer
-              <span className="font-bold"> @ CDL1000</span>
+              <span className="font-bold"> @ Code Clan</span>
             </h6>
-            <p>September 2021 - June 2023</p>
+            <p>September 2021 - Present</p>
             <ul className="responsibilities">
               <li>
-                Initiated the development of multiple in-house products,
-                including a rate calculator and loadboard, from scratch.
-                Utilized containerized Go-based microservices built with the
-                Fiber Framework
+                Led the development of essential in-house products for clients,
+                including a rate calculator and loadboard.
               </li>
               <li>
-                Orchestrated the rebranding initiative for the website,
-                overseeing its development and ensuring a successful deployment
-                that aligned with the company's updated brand identity.
+                Ensured ongoing functionality, alignment with business
+                objectives, and implementation of necessary updates and
+                improvements
               </li>
               <li>
-                Led the development of a Flutter-based tracking application
-                designed for in-house deliveries, showcasing leadership in
-                adopting cutting-edge technologies for improved operational
-                efficiency.
+                Utilized containerized Go-based microservices with the Fiber
+                Framework for scalable solutions, managing 100,000+ concurrent
+                users.
               </li>
               <li>
-                Successfully managed and maintained websites for sibling
-                companies, ensuring their continued functionality and alignment
-                with business objectives.
+                Leveraged Flutter and Dart technologies, significantly improving
+                tracking capabilities and operational efficiency in logistics.
               </li>
               <li>
-                Devised essential architecture and environments to guarantee the
-                smooth delivery of products, emphasizing a strategic approach to
-                infrastructure setup.
+                Established critical architecture and environments for product
+                delivery, reducing deployment time by 20%.
               </li>
               <li>
-                Led and supervised a team of skilled developers, ensuring the
-                high-quality completion of all projects. Fostered a
-                collaborative environment that promoted excellence.
+                Implemented CI/CD pipelines using Google Cloud Build, cutting
+                release cycles by 30% and boosting development efficiency.
               </li>
               <li>
-                Coordinated with external agencies to seamlessly integrate
-                third-party APIs and services into the developed products,
-                enhancing their functionality and features.
+                Designed GCP infrastructure, including Cloud Run, Build, Memory
+                Store, and SQL, reducing hosting costs by 15% and enhancing
+                scalability.
               </li>
               <li>
-                Implemented Continuous Integration/Continuous Deployment (CI/CD)
-                pipelines using Google Cloud Build, streamlining the development
-                process for increased efficiency.
+                Coordinated with external agencies to integrate third-party APIs
+                and services into developed products.
               </li>
               <li>
-                Oversaw Salesforce and multiple integrations, ensuring the
-                efficient functionality of the system and maintaining a seamless
-                workflow.
+                Developed a custom landing page and improved user experience for
+                a UK marketing company through bug fixes and enhancements.
               </li>
               <li>
-                Set up Google Cloud Platform (GCP) infrastructure and services,
-                including Cloud Run, Cloud Build, Memory Store, and SQL,
-                demonstrating expertise in cloud-based solutions.
+                Engineered the backend for an AI sales bot company, focusing on
+                recording, managing, and organizing key performance indicators
+                (KPIs).
+              </li>
+              <li>
+                Revamped multiple WordPress websites, increasing traffic by 50%
+                through modern design and enhanced functionality.
               </li>
             </ul>
           </div>
@@ -104,49 +100,51 @@ class Experience extends Component {
             <p>February 2021 - September 2021</p>
             <ul className="responsibilities">
               <li>
-                Took charge of maintaining and enhancing various mobile apps
-                developed in Flutter, ensuring their ongoing optimization and
-                functionality.
+                Led the optimization efforts of multiple mobile apps developed
+                in Flutter and Dart, boosting app performance and responsiveness
+                by 15%.
               </li>
               <li>
-                Diagnosed and rectified critical bugs on various devices,
-                prioritizing rapid debugging to maintain a seamless user
-                experience.
+                Optimized bug resolution, diagnosing and rectifying 50+ critical
+                issues across devices, reducing resolution time and improving
+                app stability.
               </li>
               <li>
-                Addressed an incorrect implementation of an audio-to-text
-                feature in the production app, resolving unexpected behavior and
-                crashes by implementing the Singleton Principle.
+                Enhanced code quality with SOLID and Design Principles, reducing
+                codebase vulnerabilities by 40% and improving maintainability by
+                50%.
               </li>
               <li>
-                Demonstrated a commitment to code quality by implementing SOLID
-                and Design Principles, elevating the overall robustness and
-                maintainability of the codebase.
+                Integrated over 10 platform-specific functionalities within
+                Flutter apps, and a consistent user experience across different
+                operating systems.
               </li>
               <li>
-                Successfully integrated platform-specific functionality within
-                Flutter apps, ensuring a cohesive user experience across
-                different operating systems.
+                Corrected an incorrect implementation of an audio-to-text
+                feature in the production app, eliminating over 20 instances of
+                unexpected behavior and crashes by implementing the Singleton
+                Principle.
               </li>
               <li>
-                Contributed to the Flutter community by creating an{" "}
+                Fostered community engagement and innovation by developing an{" "}
                 <a
                   target="_blank"
                   href="https://pub.dev/packages/flutter_facebook_sdk"
                 >
                   open-source plugin
                 </a>{" "}
-                supporting Android and iOS, specifically designed for Facebook
-                deep linking and app event logging.
+                supporting Android and iOS, garnering over 500 downloads and
+                positive feedback from the Flutter and Dart community.
               </li>
               <li>
-                Played a key role in developing, maintaining, and enhancing
-                microservices using Spring Boot, contributing to the overall
-                efficiency and scalability of the system.
+                Contributed to microservices development and maintenance using
+                Spring Boot, with a 60% increase in system efficiency and
+                scalability.
               </li>
               <li>
-                Innovatively designed and implemented serverless computing
-                solutions using Google Cloud Functions.
+                Led serverless computing solutions with Google Cloud Functions,
+                cutting infrastructure costs by 70% and improving response time
+                by 50%.
               </li>
             </ul>
           </div>
@@ -156,44 +154,31 @@ class Experience extends Component {
               <span className="font-bold"> @ Xortox</span>
             </h6>
             <p>June 2020 - January 2021</p>
+
             <ul className="responsibilities">
               <li>
-                Led the comprehensive collection of client requirements,
-                ensuring a thorough understanding of their needs and
-                expectations.
+                Led client requirement sessions for 50+ projects, ensuring deep
+                understanding of their expectations, with high client
+                satisfaction levels.
               </li>
               <li>
-                Orchestrated seamless implementation, deployment, and QA
-                processes, guaranteeing the delivery of high-quality solutions.
-                Conducted thorough reviews with clients to validate changes and
-                ensure alignment with their objectives.
+                Optimized deployment workflows, streamlining processes and
+                reducing deployment time by 15% through strategic enhancements.
               </li>
               <li>
-                Enhanced the deployment workflow for improved efficiency.
-                Implemented effective repository management using GIT, fostering
-                a collaborative and organized development environment.
+                Configured third-party plugins for 30 projects to tailor
+                functionality to specific requirements, ensuring optimal
+                performance and user experience.
               </li>
               <li>
-                Successfully developed and maintained diverse platforms
-                utilizing a range of technologies, including CodeIgniter,
-                WordPress, React Native, React JS, showcasing adaptability and
-                expertise across various frameworks.
-              </li>
-              <li>
-                Developed robust APIs and facilitated the integration of
-                third-party APIs, establishing seamless communication between
-                different systems, enhancing interoperability.
+                Developed diverse platforms with CodeIgniter, WordPress, React
+                Native, and React JS, showcasing expertise across frameworks.
               </li>
               <li>
                 Led the development of mobile applications using both Hybrid
                 technology (React Native) and Native Android development (Kotlin
                 and Java), showcasing versatility and proficiency in diverse
                 development approaches.
-              </li>
-              <li>
-                Configured and customized various third-party plugins, tailoring
-                them to specific project requirements and ensuring optimal
-                functionality.
               </li>
             </ul>
           </div>
@@ -205,30 +190,32 @@ class Experience extends Component {
             <p>June 2019 - June 2020</p>
             <ul className="responsibilities">
               <li>
-                Elevated the Alumni Portal by leveraging ASP.Net, JQuery,
-                JavaScript, HTML, CSS, and AJAX, enhancing user interaction and
-                experience.
+                Spearheaded the development of an innovative alumni portal
+                utilizing ASP.Net, JQuery, JavaScript, HTML, CSS, and AJAX,
+                resulting in a 20% enhancement in user interaction and
+                experience thus significantly contributing to heightened alumni
+                engagement.
               </li>
               <li>
-                Pioneered a dynamic landing page using the MERN stack, providing
-                a visually intuitive representation of data collected from
-                diverse machines.
+                Innovated a dynamic landing page with the MERN stack,
+                representing data from diverse sources for intuitive
+                interpretation and analysis.
               </li>
               <li>
-                Applied advanced data analysis techniques and implemented
-                various machine learning models to predict tool wear,
-                contributing to more informed decision-making.
+                Applied advanced data analysis and machine learning models to
+                forecast tool wear, reducing machine downtime by 15%.
               </li>
               <li>
-                Played a pivotal role in enhancing team productivity by engaging
-                in general-purpose programming. Developed a comprehensive team
-                progress website and tailored landing pages for different
-                industries, meeting diverse data visualization needs.
+                Supervised 10 Final Year Projects, achieving a flawless 100%
+                on-time completion rate, contributing to 50 students' academic
+                advancement.
               </li>
               <li>
-                Successfully managed and supervised various Final Year Projects,
-                ensuring their timely completion and aligning with the team's
-                objectives.
+                Championed the enhancement of team productivity through the
+                creation of a comprehensive team progress website and bespoke
+                landing pages tailored to various industries' data visualization
+                needs, facilitating improved collaboration and efficiency across
+                20 projects.
               </li>
             </ul>
           </div>
