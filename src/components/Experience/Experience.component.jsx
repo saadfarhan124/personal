@@ -20,9 +20,12 @@ class Experience extends Component {
           <div className="col s12">
             <ul className="tabs experience-tabs">
               <li className="tab col s3">
-                <a className="active" href="#cdl1000">
-                  Code Clan
+                <a className="active" href="#gepeto">
+                  Gepeto
                 </a>
+              </li>
+              <li className="tab col s3">
+                <a href="#cdl1000">Code Clan</a>
               </li>
               <li className="tab col s3">
                 <a href="#octobernow">OctoberNow</a>
@@ -30,100 +33,119 @@ class Experience extends Component {
               <li className="tab col s3">
                 <a href="#xortox">Xortox</a>
               </li>
-              <li className="tab col s3">
-                <a href="#szabist">Szabist</a>
+            </ul>
+          </div>
+
+          <div id="gepeto" className="col s12 center-align exp-col">
+            <h6>
+              Senior Software Engineer
+              <span className="font-bold"> @ Gepeto</span>
+            </h6>
+            <p>August 2024 - Present</p>
+            <ul className="responsibilities">
+              <li>
+                Designed and developed a microservices-based LLM agent management platform using gRPC and Redis for efficient inter-service communication.
+              </li>
+              <li>
+                Created an authentication module to manage organization-specific configurations, enabling secure access to LLM agent data and configurations.
+              </li>
+              <li>
+                Designed a live agent playground for sandbox testing of LLM agents before deployment.
+              </li>
+              <li>
+                Implemented full frontend integration using Next.js to deliver a seamless user experience.
+              </li>
+              <li>
+                Led the architecture and development of AI/LLM powered solutions for businesses using FastAPI, Anthropic, OpenAI, Instructor, PostgreSQL, Twilio, and Redis, implementing LLM-powered intelligent agents designed for enterprise-scale customer service automation.
+              </li>
+              <li>
+                Engineered comprehensive multi-stage agent systems with advanced RAG capabilities for efficient knowledge base querying and response generation.
+              </li>
+              <li>
+                Developed and integrated end-to-end Salesforce connectivity for AI agents, enabling automated case management and contact tracking while maintaining data consistency across platforms.
+              </li>
+              <li>
+                Created an intuitive Next.js dashboard empowering customers to manage user stories and training examples, enhancing agent performance and customization capabilities.
+              </li>
+              <li>
+                Implemented performance optimization strategies utilizing Redis caching and database query refinements, significantly improving agent response times and concurrent user handling.
+              </li>
+              <li>
+                Engineered a versatile embedded chatbot solution with cross-platform compatibility, ensuring seamless integration across various customer websites.
+              </li>
+              <li>
+                Established robust testing environments and deployment pipelines, streamlining the development-to-production lifecycle.
+              </li>
+              <li>
+                Worked with customer's DevOps team to deploy a multi-agent solution on their infrastructure as part of regional collaboration efforts.
+              </li>
+              <li>
+                Partnered with customer's Salesforce integration team to manage the integration and release of changes on their Salesforce instance from development to production.
               </li>
             </ul>
           </div>
+
           <div id="cdl1000" className="col s12 center-align exp-col">
             <h6>
               Lead Software Engineer
               <span className="font-bold"> @ Code Clan</span>
             </h6>
-            <p>September 2021 - Present</p>
+            <p>September 2021 - July 2024</p>
             <ul className="responsibilities">
               <li>
-                Led the development of essential in-house products for clients,
-                including a rate calculator and loadboard.
+                Led the development of essential in-house products for clients, including a rate calculator and loadboard.
               </li>
               <li>
-                Ensured ongoing functionality, alignment with business
-                objectives, and implementation of necessary updates and
-                improvements
+                Ensured ongoing functionality, alignment with business objectives, and implementation of necessary updates and improvements.
               </li>
               <li>
-                Utilized containerized Go-based microservices with the Fiber
-                Framework for scalable solutions, managing 100,000+ concurrent
-                users.
+                Utilized containerized Go-based microservices with the Fiber Framework for scalable solutions.
               </li>
               <li>
-                Leveraged Flutter and Dart technologies, significantly improving
-                tracking capabilities and operational efficiency in logistics.
+                Leveraged Flutter and Dart technologies, significantly improving tracking capabilities and operational efficiency in logistics.
               </li>
               <li>
-                Established critical architecture and environments for product
-                delivery, reducing deployment time by 20%.
+                Implemented CI/CD pipelines using Google Cloud Build, boosting development efficiency.
               </li>
               <li>
-                Implemented CI/CD pipelines using Google Cloud Build, cutting
-                release cycles by 30% and boosting development efficiency.
+                Designed GCP infrastructure, including Cloud Run, Build, Memory Store, and SQL.
               </li>
               <li>
-                Designed GCP infrastructure, including Cloud Run, Build, Memory
-                Store, and SQL, reducing hosting costs by 15% and enhancing
-                scalability.
+                Coordinated with external agencies to integrate third-party APIs and services into developed products.
               </li>
               <li>
-                Coordinated with external agencies to integrate third-party APIs
-                and services into developed products.
+                Developed a custom landing page and improved user experience for a UK marketing company through bug fixes and enhancements.
               </li>
               <li>
-                Developed a custom landing page and improved user experience for
-                a UK marketing company through bug fixes and enhancements.
+                Engineered the backend for an AI sales bot company, focusing on recording, managing, and organizing key performance indicators (KPIs).
               </li>
               <li>
-                Engineered the backend for an AI sales bot company, focusing on
-                recording, managing, and organizing key performance indicators
-                (KPIs).
-              </li>
-              <li>
-                Revamped multiple WordPress websites, increasing traffic by 50%
-                through modern design and enhanced functionality.
+                Collaborated with Nuance's team to deploy and integrate a customer's chatbot solution, contributing to regional collaboration on the deployment process.
               </li>
             </ul>
           </div>
+
           <div id="octobernow" className="col s12 center-align exp-col">
             <h6>
-              Software Engineer
+              Software Developer
               <span className="font-bold"> @ OctoberNow</span>
             </h6>
             <p>February 2021 - September 2021</p>
             <ul className="responsibilities">
               <li>
-                Led the optimization efforts of multiple mobile apps developed
-                in Flutter and Dart, boosting app performance and responsiveness
-                by 15%.
+                Led the optimization efforts of multiple mobile apps developed in Flutter and Dart.
               </li>
               <li>
-                Optimized bug resolution, diagnosing and rectifying 50+ critical
-                issues across devices, reducing resolution time and improving
-                app stability.
+                Optimized bug resolution, diagnosing and rectifying 10+ critical issues across devices.
               </li>
               <li>
-                Enhanced code quality with SOLID and Design Principles, reducing
-                codebase vulnerabilities by 40% and improving maintainability by
-                50%.
+                Enhanced code quality with SOLID and Design Principles, reducing codebase vulnerabilities and improving maintainability.
               </li>
               <li>
-                Integrated over 10 platform-specific functionalities within
-                Flutter apps, and a consistent user experience across different
-                operating systems.
+                Integrated multiple platform-specific functionalities within Flutter apps, and a consistent user experience across different operating systems.
               </li>
               <li>
-                Corrected an incorrect implementation of an audio-to-text
-                feature in the production app, eliminating over 20 instances of
-                unexpected behavior and crashes by implementing the Singleton
-                Principle.
+                Fixed a buggy implementation of an audio-to-text feature in the production app, eliminating unexpected behavior and crashes by implementing the Singleton Principle.
               </li>
               <li>
                 Fostered community engagement and innovation by developing an{" "}
@@ -133,89 +155,38 @@ class Experience extends Component {
                 >
                   open-source plugin
                 </a>{" "}
-                supporting Android and iOS, garnering over 500 downloads and
-                positive feedback from the Flutter and Dart community.
+                supporting Android and iOS, garnering 100+ downloads and positive feedback from the Flutter and Dart community.
               </li>
               <li>
-                Contributed to microservices development and maintenance using
-                Spring Boot, with a 60% increase in system efficiency and
-                scalability.
+                Contributed to microservices development and maintenance using Spring Boot.
               </li>
               <li>
-                Led serverless computing solutions with Google Cloud Functions,
-                cutting infrastructure costs by 70% and improving response time
-                by 50%.
+                Led serverless computing solutions with Google Cloud Functions.
               </li>
             </ul>
           </div>
+
           <div id="xortox" className="col s12 center-align exp-col">
             <h6>
               Software Engineer
               <span className="font-bold"> @ Xortox</span>
             </h6>
             <p>June 2020 - January 2021</p>
-
             <ul className="responsibilities">
               <li>
-                Led client requirement sessions for 50+ projects, ensuring deep
-                understanding of their expectations, with high client
-                satisfaction levels.
+                Led client requirement sessions, ensuring deep understanding of their expectations, with high client satisfaction levels.
               </li>
               <li>
-                Optimized deployment workflows, streamlining processes and
-                reducing deployment time by 15% through strategic enhancements.
+                Optimized deployment workflows, streamlining processes and reducing deployment time.
               </li>
               <li>
-                Configured third-party plugins for 30 projects to tailor
-                functionality to specific requirements, ensuring optimal
-                performance and user experience.
+                Configured third-party plugins to tailor functionality to specific requirements, ensuring optimal performance and user experience.
               </li>
               <li>
-                Developed diverse platforms with CodeIgniter, WordPress, React
-                Native, and React JS, showcasing expertise across frameworks.
+                Developed diverse platforms with CodeIgniter, WordPress, React Native, and React JS, showcasing expertise across frameworks.
               </li>
               <li>
-                Led the development of mobile applications using both Hybrid
-                technology (React Native) and Native Android development (Kotlin
-                and Java), showcasing versatility and proficiency in diverse
-                development approaches.
-              </li>
-            </ul>
-          </div>
-          <div id="szabist" className="col s12 center-align exp-col">
-            <h6>
-              Research Assistant
-              <span className="font-bold"> @ Szabist</span>
-            </h6>
-            <p>June 2019 - June 2020</p>
-            <ul className="responsibilities">
-              <li>
-                Spearheaded the development of an innovative alumni portal
-                utilizing ASP.Net, JQuery, JavaScript, HTML, CSS, and AJAX,
-                resulting in a 20% enhancement in user interaction and
-                experience thus significantly contributing to heightened alumni
-                engagement.
-              </li>
-              <li>
-                Innovated a dynamic landing page with the MERN stack,
-                representing data from diverse sources for intuitive
-                interpretation and analysis.
-              </li>
-              <li>
-                Applied advanced data analysis and machine learning models to
-                forecast tool wear, reducing machine downtime by 15%.
-              </li>
-              <li>
-                Supervised 10 Final Year Projects, achieving a flawless 100%
-                on-time completion rate, contributing to 50 students' academic
-                advancement.
-              </li>
-              <li>
-                Championed the enhancement of team productivity through the
-                creation of a comprehensive team progress website and bespoke
-                landing pages tailored to various industries' data visualization
-                needs, facilitating improved collaboration and efficiency across
-                20 projects.
+                Led the development of mobile applications using React Native.
               </li>
             </ul>
           </div>
